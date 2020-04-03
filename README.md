@@ -1,2 +1,2 @@
-# GoldPan
-This is Goldpan documentation
+# GoldPan Documentation Project
+Please, see Goldpan documentation in **docs** folder.
