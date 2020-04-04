@@ -1,8 +1,8 @@
-# Goldpan 4.3 Main Features
+# Goldpan 3.4 Main Features
 
 This document lists the primary operations available to Goldpan users.
 
-## Create, open and edit TMX and TBX files.
+## Create, open and edit TMX and TBX files
 
 Goldpan is easy to use, but powerful tool for creating, opening and editing multilingual translation memory (TMX) and terminology exchange (TBX) files with up to nine parallel language pairs.
 
