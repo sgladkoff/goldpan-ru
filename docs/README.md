@@ -59,24 +59,6 @@ Color marking is performed using the **Color** drop-down list in the **Markup** 
 
 Marking-based filtering is performed using the **Color** drop-down list from the **Marked Up** group of the **Filters and Checks** tab. If any colors are selected from this list (multiple colors can be selected simultaneously), the editor will not display any segments not marked with these colors.
 
-Using standard find-and-replace functions in the editor, with the option of using regular expressions available:
-
-The user can activate the **Search and Replace** window by pressing either `CTRL+F` or the **Search* button in the **Text Search** group of the **Home** tab.
-
-## Cleaning from tags
-
-You can clean up resources by removing tags of various types (including the `XML` and `RTF` tags) as well as any superfluous spaces at the start and at the end of a given text:
-
-The **Clean** drop-down list in the **Text Cleaning** group of the Home tab is used for this purpose. Selecting any of the items on the list executes the corresponding operation for all highlighted cells.
-
-**Tags only** removes any angle bracket (< >) tags.
-
-**Tags such as { }** remove any curly bracket or other corresponding tags.
-
-**Trim first and last spaces** removes any unneeded spaces.
-
-**Clear cells** clears the cells.
-
 ## Filtering
 
 You can filter resources using various criteria such as segment status and presence of particular text fragments within cell.
@@ -92,6 +74,26 @@ Various elements of the **Filters** and **Checks** tab are used for this purpose
 - The Search element group is used to filter away any segments that don't contain the specified text fragment. A specific segment field, selected by means of the Field drop-down list, will be searched for the fragment entered in the Text box. If the Contains button is used to start the filtering process, the editor will display every segment that contains the text within the appropriate field. If the Equals button is used, only the segment in which the field’s content is a complete match to the text will be shown;
 
 - The **Advanced** element group: see below.
+
+## Find and Replace
+
+You can use standard find-and-replace functions in the editor, with the option of using regular expressions.
+
+You can activate the **Search and Replace** window by pressing either `CTRL+F` or the **Search** button in the **Text Search** group of the **Home** tab.
+
+## Cleaning from tags
+
+You can clean up resources by removing tags of various types (including the `XML` and `RTF` tags) as well as any superfluous spaces at the start and at the end of a given text:
+
+The **Clean** drop-down list in the **Text Cleaning** group of the Home tab is used for this purpose. Selecting any of the items on the list executes the corresponding operation for all highlighted cells.
+
+**Tags only** removes any angle bracket (< >) tags.
+
+**Tags such as { }** remove any curly bracket or other corresponding tags.
+
+**Trim first and last spaces** removes any unneeded spaces.
+
+**Clear cells** clears the cells.
 
 ## Executing QA checks by filtering
 
