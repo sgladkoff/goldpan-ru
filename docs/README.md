@@ -21,6 +21,12 @@ The smart way is to use TM Server to keep clean TMs as a central source of knowl
 
 Logrus Global has a solution for that - it's called **Memose**. With **Memose** you can centralize the storage of TMs, do search, manage your TMs in one common centralized place in your own Memose cloud,  prepare project memory for CAT tool of your choosing, and even translate and edit `.xliff` files! If you want to try Memose, send an email to marcom @ logrusglobal.com.
 
+## Supported operating systems
+
+Currently Goldpan is working only on Windows 64 bit. There is no Windows 32 version, OS X version or Linux version, and these are not in the plans because this is a free product.
+
+Custom feature development can be done for companies that will finance new custom features. Otherwise we will only implement what we feel we need to implement at our own expense. Donations are always welcome.
+
 ## How to install Goldpan
 
 In order to install Goldpan you go to Logrus Global Localization Cloud (https://cloud.logrusglobal.com/) and choose Goldpan. Then click **Try it**. You will be taken to Logrus Global Localization Cloud Dashboard.
