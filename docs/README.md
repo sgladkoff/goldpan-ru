@@ -2,9 +2,9 @@
 
 This document lists the primary operations available to Goldpan users.
 
-## Creating, opening and editing multilingual translation memory (TMX) files with up to nine parallel language pairs
+## Create, open and edit TMX and TBX files.
 
-## Creating, opening and editing terminology (TBX) files
+Goldpan is easy to use, but powerful tool for creating, opening and editing multilingual translation memory (TMX) and terminology exchange (TBX) files with up to nine parallel language pairs.
 
 ## Importing translation resources from the SDLTM, SDLXLIFF, XLIFF, TMX and TBX file formats:
 
