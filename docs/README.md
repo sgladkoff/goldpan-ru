@@ -2,9 +2,38 @@
 
 This document lists the primary operations available to Goldpan users.
 
+## Why do I need Goldpan and what is it for?
+
+What is this tool for?
+
+You need Goldpan to handle bilingual translation data in order to preserve the knowledge that you have accumulated in bilingual translations in your possession. With Goldpan you can:
+
+* prepare various bilingual formats in TMX format to keep them in order locally
+* work with TMs and mine terminology from them, or correct translations
+* clean tags and prepare them for upload into CAT tool or TM server
+* prepare TMs for training your custom MT
+
+## How do I handle many TMs that I have?
+
+You prepare and clean TM files and them you can store them on your local machine or your company server. But that is of course an old way of previous century.
+
+The smart way is to use TM Server to keep clean TMs for yourself or your organization.
+
+Logrus Global has a solution for that - it's called **Memose**. With **Memose** you can centralize the storage of TMs, do search, manage your TMs in one common centralized place in your own Memose cloud,  prepare project memory for CAT tool of your choosing, and even translate and edit `.xliff` files! If you want to try Memose, send an email to marcom @ logrusglobal.com.
+
+## How to install Goldpan
+
+In order to install Goldpan you go to Logrus Global Localization Cloud (https://cloud.logrusglobal.com/) and choose Goldpan. Then click **Try it**. You will be taken to Logrus Global Localization Cloud Dashboard.
+
+Click **Free Download** on Goldpan tile.
+
+The latest .msi distribution will download. Install it on your system and voila!
+
 ## Create, open and edit TMX and TBX files
 
 Goldpan is easy to use, but powerful tool for creating, opening and editing multilingual translation memory (TMX) and terminology exchange (TBX) files with up to nine parallel language pairs.
+
+Despite its simple visual interface Goldpan has a lot of features and some of them are not so obvious so we explain them here is more details.
 
 ## Supported formats
 
