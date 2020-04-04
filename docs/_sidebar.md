@@ -1,2 +1,2 @@
 * [Home](/)
-* [Guide](README.md)
+* [Sections](README.md)
