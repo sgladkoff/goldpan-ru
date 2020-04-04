@@ -6,7 +6,7 @@ This document lists the primary operations available to Goldpan users.
 
 What is this tool for?
 
-You need Goldpan to handle bilingual translation data in order to preserve the knowledge that you have accumulated in bilingual translations in your possession. With Goldpan you can:
+You need Goldpan to handle bilingual translation data in order to preserve the linguistic knowledge that you have accumulated in bilingual translations in your possession. With Goldpan you can:
 
 * prepare various bilingual formats in TMX format to keep them in order locally
 * work with TMs and mine terminology from them, or correct translations
