@@ -1,4 +1,6 @@
-# The primary operations available to Goldpan users.
+# Goldpan: Main Features
+
+This document lists the primary operations available to Goldpan users.
 
 ## Creating, opening and editing multilingual translation memory (TMX) files with up to nine parallel language pairs
 
