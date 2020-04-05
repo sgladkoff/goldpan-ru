@@ -133,7 +133,7 @@ Various methods of selection based on source-target comparison are available.
 
 ## Split and Merge
 
-You can solit and merge translation memory files using several criteria, in batch mode.
+You can split and merge translation memory files using several criteria, in batch mode.
 
 The **Split & Merge** group of the Batch Tools tab is used:
 
