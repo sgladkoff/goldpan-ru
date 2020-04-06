@@ -131,7 +131,7 @@ Various methods of selection based on source-target comparison are available.
 
 – The check is performed for a single language pair, i.e., the source language and a particular target language selected from the **Ref.Pair** drop-down list.
 
-## Split and Merge
+## Split & Merge
 
 You can split and merge translation memory files using several criteria, in batch mode.
 
