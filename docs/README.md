@@ -12,3 +12,9 @@ With the tools of Logrus GLobal Language cloud you can:
 * use features that are not yet implemented in the tools that you are using
 * run simpler workflows
 * do things that previously required very expensive solutions
+
+The Logrus Global Language Cloud includes the following tools:
+
+* [Goldpan](goldpan.md) - a free, simple to yse yet powerful TMX/TBX Editor
+* [Memose](Memose.md)   - a cloud-based, infinitely scalable and ultrafast Translation Memory and CAT tool (editor) with access to more than 32 MT engines.
+
