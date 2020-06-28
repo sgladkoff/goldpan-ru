@@ -1,4 +1,4 @@
 * [Contents](/)
 * [Sections](README.md)
-* [Sections](goldpan.md)
-* [Sections](memose.md)
+* [Goldpan](goldpan.md)
+* [Memose](memose.md)
