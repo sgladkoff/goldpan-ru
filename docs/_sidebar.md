@@ -2,3 +2,4 @@
 * [Goldpan](goldpan.md)
 * [Memose](memose.md)
 * [Rigora](rigora.md)
+* [Privacy Policy](privacypolicy.md)
