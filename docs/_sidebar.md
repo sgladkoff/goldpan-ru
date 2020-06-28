@@ -1,5 +1,6 @@
-* [Overview](README.md)
+* [Overview of Language Cloud](README.md)
 * [Goldpan](goldpan.md)
 * [Memose](memose.md)
 * [Rigora](rigora.md)
 * [Privacy Policy](privacypolicy.md)
+* [Terms of Use](termsofuse.md)
