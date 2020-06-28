@@ -2,7 +2,7 @@
 
 Logrus GLobal Localization Cloud is a cloud-based universe of tools and services created to support translation and localization workflow in the era of diverse, both cloud-based and desktop toolset where information worker has to operate with often incompatible tools and formats.
 
-## Why do I need Logrus Global Language Cloud and what is it for?
+## Why do I need your cloud and what is it for?
 
 The tools of Logrus Global Localization Cloud will help you to simplify your work and deliver interoperability right at your fingertips. They also feature some innovative technologies.
 
