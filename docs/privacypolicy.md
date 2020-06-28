@@ -156,7 +156,7 @@ This privacy policy may be changed from time to time. Notifications will be sent
 *What if I still have questions about personal data?*
 Please contact us at management @ logrusglobal.com with any questions, suggestions, or concerns about this privacy policy, or about the use of your personal data.
  
-# CONSENT SECTION
+# CONSENT Section
 
 This section deals with personal data consent. It is essential to the understanding of the personal data that the Logrus Global Localization Cloud Platform collects from the Users. Under GDPR and certain other applicable laws, including but not limited to Federal Law of Russia No152-FZ dated July 27, 2006 “On personal data”, Logrus Global is required to obtain specific consent from the Users in relation to personal data collection.
 
