@@ -2,6 +2,11 @@
 
 This document lists the primary operations available to Goldpan users.
 
+## Goldpan 3.4 is free!
+
+We are proud and happy to share this tool free of charge to the industry.
+You do NOT have pay anything for Goldpan unless you want to use a couple of premium features needed only to large companies and serious projects, but MOST of the features are *and will be*  completely free.
+
 ## Why do I need Goldpan and what is it for?
 
 What is Goldpan for?
