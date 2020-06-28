@@ -1,4 +1,4 @@
-#Logrus Global PRIVACY POLICY
+# Logrus Global PRIVACY POLICY
 
 This Privacy Policy and Consent Notice (“PPCN”) is a part of the Terms of Use entered into by and between the User and Logrus Global LLC which is available on Logrus Global website or such other locations where the Terms of Use may be posted.
 
@@ -11,11 +11,11 @@ The PPCN is based on and reflects the various mandatory requirements of applicab
 ## PRIVACY POLICY Section
 In order to convey the understanding of legal terminology and various aspects of personal data collection, storage, use, processing and cross-border transfer in a simple form, we have put the Privacy Policy Section in the form of questions and answers.
 
-##What is personal data?
+## What is personal data?
 
 Personal data is any information relating to an identified or identifiable natural person (‘data subject’); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.
 
-##What aspects of personal data does the Logrus Global Localization Cloud Platform collect from the User?
+## What aspects of personal data does the Logrus Global Localization Cloud Platform collect from the User?
 
 *Account Information*
 
@@ -67,7 +67,7 @@ Certain usage data is retained when the User accesses and uses the features of t
 
 The Logrus Global Localization Cloud Platform will also collect data about the computers and other electronic devices uses to access or use platform, including IP addresses, browser type, language, operating system, the referring web page, pages visited, location and cookie information.
 
-##Use of Personal Data
+## Use of Personal Data
 
 Any information collected will be used for the following purposes:
 
@@ -84,7 +84,7 @@ Personal data is used to promote the safety and security of the Logrus Global Lo
 *To fulfill the Terms of Use*
 Personal data is used to fulfill the Terms of Use and improve the User’s experience with the Logrus Global Localization Cloud Platform.
 
-##Sharing of Personal Data
+## Sharing of Personal Data
 
 *With affiliates, partners and providers*
 Based on the consent given by the User, personal data may be shared with our partners. Any partners that the User’s data is shared with will be identified. Only limited personal data is shared. For example, some personal data may be disclosed to others when the User employs our forums. Sensitive personal data such as payment details and passwords is never shared.
@@ -102,7 +102,7 @@ Logrus Global will store or disclose personal information in compliance with leg
 
 Logrus Global may also store or disclose information about the User to assert legal rights or defend against legal claims; or to prevent, detect, or investigate illegal activity, fraud, abuse, violations of our terms, or threats to the security of the Logrus Global Localization Cloud Platform.
 
-##User Control of Personal Data
+## User Control of Personal Data
 *By accessing and exporting personal data*
 The User may access their personal data by logging into their account. Account information may be downloaded using a web browser in a commonly used file format supported by the browser.
 
@@ -122,14 +122,14 @@ This may also be achieved by deleting the account.
 *By requesting a total personal data upload*
 The User may send a request by email to marcom @ logrusglobal.com to have all of their personal data from the Logrus Global Localization Cloud Platform compiled and sent to them within 30 days of the request.
 
-##Personal Data Storage
+## Personal Data Storage
 Essential account information, such as name, email address and password, is stored for as long as the account exists as it is needed for operating the account.
 
 All non-essential personal profile information is kept until it is deleted by the User or the account is deleted; this data is used for providing the account with features and services of the platform. Information about the User and their use of the Logrus Global Localization Cloud Platform is stored for 30 days.
 
 When the User terminates the Terms of Use to delete their account, personal data will be securely destroyed and/or (if specifically requested) returned to the User within a period of 30 days, unless applicable legislation or legal process prevents it from doing so.
 
-##Personal Data Protection
+## Personal Data Protection
 Logrus Global guarantees the security of personal data. This is achieved by employing a combination of technical, administrative, and physical controls. This includes but is not limited to the following:
 * use of data centers in the U.S.;
 * a limited number of our employees have access to personal data and they are all bound by relevant confidentiality covenants under their employment or civil law services agreements;
