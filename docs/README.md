@@ -18,3 +18,4 @@ The Logrus Global Language Cloud includes the following tools:
 * [Goldpan](goldpan.md)       - a free, simple to use yet powerful TMX/TBX Editor
 * [Memose](memose.md)         - a cloud-based, infinitely scalable and ultrafast Translation Memory and CAT tool (editor) with access to more than 32 MT engines.
 * [Rigora](rigora.md)   - THE most powerful technical and linguistic quality assurance (QA) tool to support localization of software and other content into any language.
+* [Interpretisto](interpretisto.md)   - the video conferencing and remote simultaneous interpreting platform that lets you conduct conference calls and host online and onsite events with simultaneous interpretation.
