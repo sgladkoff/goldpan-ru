@@ -2,5 +2,6 @@
 * [Goldpan](goldpan.md)
 * [Memose](memose.md)
 * [Rigora](rigora.md)
+* [Interpretisto](interpretisto.md)
 * [Privacy Policy](privacypolicy.md)
 * [Terms of Use](termsofuse.md)
