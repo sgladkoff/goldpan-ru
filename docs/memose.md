@@ -1,4 +1,4 @@
-## Memose: Cloud-based TM and new generation  CAT tool
+## Memose: Cloud-based Translation Memory and new generation CAT tool
 
 You prepare and clean TM files and then you may store them on your local machine or your company file server. But that is of course an old way of previous century.
 
