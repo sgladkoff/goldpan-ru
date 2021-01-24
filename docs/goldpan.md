@@ -47,7 +47,7 @@ Goldpan is an easy-to-use - but powerful - tool for creating, opening and editin
 
 Despite its simple visual interface, Goldpan has a lot of features. Some of them are not so obvious, so we'll explain them here is more detail.
 
-## Supported formats
+### Supported formats
 
 Goldpan supports differing sets of file formats for importing and exporting data. Some formats can be read, but not written in.
 
