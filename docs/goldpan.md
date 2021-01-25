@@ -1,11 +1,9 @@
-# Goldpan 3.5.2 Main Features
-
-This document lists the primary features and capabilities available to Goldpan users.
-
-## Goldpan 3.5.2 is free!
+# Goldpan, a free multi-purpose linguistic software tool
 
 We are proud and happy to share this tool with the industry, free of charge.
 You do NOT have to pay anything for Goldpan - unless you want to use a couple of premium features needed only for large companies and serious projects. The core features of Goldpan are - *and will stay* - completely free.
+
+The current version of Goldpan is 3.5.2.
 
 ## Why do I need Goldpan and what is it for?
 
