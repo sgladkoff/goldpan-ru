@@ -1,4 +1,4 @@
-# Interpretisto: the simultaneously interpreted video conference platform
+# Interpretisto: the simultaneous interpreting platform
 
 Interpretisto is a platform that enables you to conduct conference calls and host online and onsite events with simultaneous interpretation.
 
