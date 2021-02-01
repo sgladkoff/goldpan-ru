@@ -148,10 +148,12 @@ We've created this function with the task of 'cleaning up TM corpi' in mind. For
 By default, the filtering is performed through the target cell contents. The **Search in source** option enables filtering via the source cell contents. There is a **Match case** option, as well.
 
 ![Let's filter out all the records that have the word 'Accounting' in the source](accounting1.png)
+*Let's filter out all the records that have the word 'Accounting' in the source*
 
 The **Use RegExp** option enables you to use regular expressions for filtering. A link to the regular expression specification at microsoft.com is provided for quick reference.
 
 ![Now let's filter out those that specifically start with this word, instead of just having it anywhere](regexp1.png)
+*Now let's filter out those that specifically start with this word, instead of just having it anywhere*
 
 ### Split & Merge
 
