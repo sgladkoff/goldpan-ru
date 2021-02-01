@@ -3,7 +3,7 @@
 We are proud and happy to share this tool with the industry, free of charge.
 You do NOT have to pay anything for Goldpan - unless you want to use a couple of premium features needed only for large companies and serious projects. The core features of Goldpan are - *and will stay* - completely free.
 
-The current version of Goldpan is 3.5.2.
+The current version of Goldpan is 3.5.3.
 
 ## Why do I need Goldpan and what is it for?
 
@@ -134,6 +134,24 @@ The **Filter Checks** drop-down list from the Advanced group of the Filters and 
 - **Find duplicates** displays duplicate segments.
 
 The check is performed for a single language pair, i.e. the source language and a particular target language selected from the **Ref.Pair** drop-down list.
+
+A new element, **Text and RegExp Filter**, has been added in Version 3.5.3. It deserves a chapter of its own.
+
+### Text and Regular Expression Filtering
+
+The **Text and RegExp Filter** function is different from the other ones that are accessed through the **Filter Checks** drop-down list.
+
+It displays a dialog window resembling the standard Find & Replace window. However, instead of finding or replacing individual records, this one filters out a list of all the records containing a specific string, or matching a regular expression.
+
+We've created this function with the task of 'cleaning up TM corpi' in mind. For example, if you need to send a corpus (or a fragment of it) somewhere, for training or testing a machine translation engine, you may want to filter out all the records containing the name of your company, in order to then remove them (or to edit them, perhaps using regular expressions). In the past, it has been noted that Goldpan did not offer this capability - but it does, now!
+
+By default, the filtering is performed through the target cell contents. The **Search in source** option enables filtering via the source cell contents. There is a **Match case** option, as well.
+
+![Let's filter out all the records that have the word 'Accounting' in the source](accounting.png)
+
+The **Use RegExp** option enables you to use regular expressions for filtering. A link to the regular expression specification at microsoft.com is provided for quick reference.
+
+![Now let's filter out those that specifically start with this word, instead of just having it anywhere](regexp.png)
 
 ### Split & Merge
 
