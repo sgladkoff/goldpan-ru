@@ -16,8 +16,8 @@ It is often necessary to keep track of how an editor makes changes to the docume
 ![This is what a DOCX file covnerted from XLIFF looks like.](rig2.png)
 *This is what a DOCX file covnerted from XLIFF looks like.*
 
-![Use the Review -> Compare option in MS Word to compare the changes between two DOCX files belonging to a different version of a document.](rig3.png)
-*Use the Review -> Compare option in MS Word to compare the changes between two DOCX files belonging to a different version of a document.*
+![Use the Review -> Compare option in MS Word to compare the changes between two DOCX files belonging to different versions of a document.](rig3.png)
+*Use the Review -> Compare option in MS Word to compare the changes between two DOCX files belonging to different versions of a document.*
 
 Most CAT sytems do not offer the means of viewing versions of a document from different project stages, let alone a convenient way to view a history of changes. Making project snapshots in XLIFF format is an easy-to-use solution, available to everyone. 
 
