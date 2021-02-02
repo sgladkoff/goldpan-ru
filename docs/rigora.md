@@ -11,7 +11,7 @@ It is often necessary to keep track of how an editor makes changes to the docume
 **Rigora** solves this issue through its new function. It is used to covnert a duolingual XLIFF file into a MS Word document containting a table with two columns: source and translation. XLIFF files can be obtained easily from most CAT tools, as they enalbe the user to export a project as a set of XLIFF files at any stage of the project. So, in order to compare two versions of a document from different stages of its project, you can simply convert the XLIFF files to the DOCX format and then use the standard document-comparing function of MS Word. If you do a XLIFF export of your CAT project after the translation is done, and then another after the editing is done, you will be able to visualize everything that the editor had deemed right to fix in every document. 
 
 ![Convert a XLIFF file into a DOCX file using the File -> Export Items option with the Word Document file type](rig1.png)
-*Convert a XLIFF file into a DOCX file using the File -> Export Items option with the Word Document file type.*
+*You can convert a XLIFF file into a DOCX file using the File -> Export Items option with the Word Document file type.*
 
 ![This is what a DOCX file covnerted from XLIFF looks like.](rig2.png)
 *This is what a DOCX file covnerted from XLIFF looks like.*
