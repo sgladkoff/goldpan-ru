@@ -4,6 +4,8 @@
 
 Please, visit [www.rigora.stido](http://www.rigora.studio) web site for more details about the tool.
 
+The current version of Rigora is 1.3.10.
+
 ## Keeping Track of the Translation Editing History at Every Stage, for Every Document Format
 
 It is often necessary to keep track of how an editor makes changes to the document after receiving it from the translator - as well as keeping track of the document, in general, at all stages of the translation process. This is relevant for regular editors as well as MT post-editors. CAT tools often do not keep track of who exactly changes what (sometimes they do, but the process is often inconvenient).
