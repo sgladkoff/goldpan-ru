@@ -3,7 +3,7 @@
 We are proud and happy to share this tool with the industry, free of charge.
 You do NOT have to pay anything for Goldpan - unless you want to use a couple of premium features needed only for large companies and serious projects. The core features of Goldpan are - *and will stay* - completely free.
 
-The current version of Goldpan is 3.5.3.
+The current version of Goldpan is 3.6.
 
 ## Why do I need Goldpan and what is it for?
 
@@ -87,9 +87,11 @@ The **Filters and Checks** tab elements are used for this purpose:
 
 ### Find and Replace
 
-You can use standard find-and-replace functions in the editor, with the option of using regular expressions.
+You can use standard find-and-replace functions in the editor.
 
 You can activate the **Search and Replace** window by pressing either `CTRL+F` or the **Search** button in the **Text Search** group of the **Home** tab.
+
+Goldpan enables the use of regular expressions with these functions, which can be quite useful. For example, you may need to edit or remove the time codes that are present in your TM data. In that case, you'd simply run a search or replace query with the "\d\d:\d\d:\d\d\s" regular expression (for a "11:22:33" format of time codes) in the "Find what" field. The use of regular expressions is toggled via the **Use Regular expression** checkbox.
 
 ### Clearing tags
 
