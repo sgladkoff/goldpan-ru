@@ -117,6 +117,8 @@ The **Clean** drop-down list in the **Text Cleaning** group of the Home tab is u
 
 If you are operating a **PRO Version** of Goldpan, there is now - as of Version 3.6 - another option ready for you: the **Clean tags in files** button in the Batch Tools tab. With it, you can clean up entire batches of files in a few clicks. Pressing this button calls a dialog window. There, you can set up a list of files to be cleared of tags using the **Add File** (which calls an additional dialog window for selecting one or more TMX/TBX files) and **Add TMX Dir** (which calls another window for designating entire folders) buttons. The **Clean tags**, **Clean tags like { }** and **Trim first and last spaces** checkboxes determine the method of tag-clearing to be employed, similiar to the buttons described above. After you've listed all the files and chosen the clearing method, press the CLEAN button to execute!
 
+![The dialog window](clean.png)
+
 ### QA Filtering options
 
 You can perform basic QA checking on your translation resources, as Goldpan provides various methods of segment filtering based on source-target comparison.
