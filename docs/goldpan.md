@@ -39,6 +39,14 @@ Click the **Free Download** link on the Goldpan tile.
 
 The latest MSI distributive file will be downloaded. Install it on your system and voila!
 
+## PRO Version
+
+If your Logrus Global Cloud account is authorized for the **PRO Version** of Goldpan, press the **PRO Version** button in the Home tab (or the Help tab) to call a log-in dialog window for entering your login and password. Following that, the **PRO Version** functions will become available to you.
+
+Currently, the following functons are restricted to the **PRO Version**:
+
+- the **Clean tags in files** button in the Batch Tools tab (see below in the **Clearing tags**)
+
 ## Creating, opening and editing TMX and TBX files
 
 Goldpan is an easy-to-use - but powerful - tool for creating, opening and editing multilingual translation memory (TMX) and terminology exchange (TBX) files with up to nine parallel language pairs.
@@ -107,7 +115,7 @@ The **Clean** drop-down list in the **Text Cleaning** group of the Home tab is u
 
 - **Clear cells** clears the cells.
 
-If you are operating a PRO Version of Goldpan, there is now - as of Version 3.6 - another option ready for you: the **Clean tags in files** button in the Batch Tools tab. With it, you can clean up entire batches of files in a few clicks. Pressing this button calls a dialog window. There, you can set up a list of files to be cleared of tags using the **Add File** (which calls an additional dialog window for selecting one or more TMX/TBX files) and **Add TMX Dir** (which calls another window for designating entire folders) buttons. The **Clean tags**, **Clean tags like { }** and **Trim first and last spaces** checkboxes determine the method of tag-clearing to be employed, similiar to the buttons described above. After you've listed all the files and chosen the clearing method, press the CLEAN button to execute!
+If you are operating a **PRO Version** of Goldpan, there is now - as of Version 3.6 - another option ready for you: the **Clean tags in files** button in the Batch Tools tab. With it, you can clean up entire batches of files in a few clicks. Pressing this button calls a dialog window. There, you can set up a list of files to be cleared of tags using the **Add File** (which calls an additional dialog window for selecting one or more TMX/TBX files) and **Add TMX Dir** (which calls another window for designating entire folders) buttons. The **Clean tags**, **Clean tags like { }** and **Trim first and last spaces** checkboxes determine the method of tag-clearing to be employed, similiar to the buttons described above. After you've listed all the files and chosen the clearing method, press the CLEAN button to execute!
 
 ### QA Filtering options
 
