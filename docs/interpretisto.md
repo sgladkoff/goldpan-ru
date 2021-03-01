@@ -70,7 +70,7 @@ The following UI functions are available to an **Interpreter**:
 
 This role has been created as an interpretation aid for users intending to attend a foreign-language conference physically.
 
-As an **Attendee (Event Local)**, you can only listen to streamed audio from available users with the **Interpreter** role, in your chosen language.
+As an **Attendee (Event Local)**, you can only listen to streamed audio from available users with the **Interpreter** role, in your chosen language. This role provides no streaming or chat input.
 
 If you are a **Attendee (Event Local)**, you will be asked to select an interpreting language when logging in.
 
@@ -78,7 +78,7 @@ If you are a **Attendee (Event Local)**, you will be asked to select an interpre
 
 The role of an attendee during a webinar-style conference.
 
-As an **Attendee (Event Remote)**, you can see and hear what the users with the Presenter and Participant roles are streaming in video and audio, as well as monitor the chat.
+As an **Attendee (Event Remote)**, you can see and hear what the users with the **Presenter** and **Participant** roles are streaming in video and audio, as well as monitor the chat. This role provides no streaming or chat input.
 
 If the conference has interpretation enabled, you will be able to choose your preferred language in order to filter out the users with the **Interpreter** role that are translating into that language. Any other audio will be reduced in volume to 30%, by default (you can change this in the Options).
 
@@ -88,6 +88,34 @@ The following UI elements are available to an **Attendee (Event Remote)**:
 
 ![Attendee UI 1](ui_attendee_1.png)
 
-## Administrator Functions
+### Additional Materials**
+
+If your role is not **Attendee (Event Local)**, you may see this icon in your UI:
+
+![download 1](ui_download.png)
+
+This icon is not always visible. If it is, it means that the manager of this conference has made additional materials of some kind available to the invitees. Click this button to see the list of files.
+
+## Managing Cofnerences
+
+We've made the UI for managing conference to be as intuitive as possible. You can access the management page by simply clicking the **Manage Conferences** link in the upper right corner of the screen.
+
+![Management 1](manage_conf_1.png)
+*The Management Screen*
+
+Once there, you can create a new conference by writing its name in the text box and pressing Create Conference. If there are existing conferences, you can jump to the editing screen of a particular conference by clicking the link in its name, as well as close or delete them with the appropriate buttons.
+
+![Management 2](manage_conf_2.png)
+*The Editing Screen*
+
+On the editing screen, you can control every aspect of the conference:
+
+-set its name, or rename it at any time in the top section;
+-set the time period when the conference will be available using the **Schedule**  section;
+-set the language pair, or pairs, that will be used for interpreting - as many as you need, in the **Interpreted Language Pairs** section;
+-upload a picture to serve as a logo that all invitees will see in the top right corner of their UI, in the **Logo** section;
+-upload any files that you want your invitees (besides the **Attendee (Event Local)** role) to have access to, in the **Additional Materials** section;
+
+In the top right corner of the UI, you will find a list of links and join codes. They are automatically generated for every available role in this conference, with the **Attendee (Event Local)** and **Interpreter** roles being enabled only for conferences with language pairs selected.
 
 ## Types of Conferences Possible
