@@ -16,7 +16,7 @@ An Internet connection with a 5 mbps up/down (or higher) bandwidth is recommende
 
 If you have a speaking role, connect your headset and camera and enable your browser to access them prior to entering **Interpretisto**. 
 
-Choose an environment without background noise, and with good lighting if you're using a camera. Keep your microphone muted until it's your turn to speak.
+Choose an environment without background noise, and with good lighting if you're using a camera. Remember to keep your microphone muted until it's your turn to speak.
 
 You can log in to an existing conference simply by using an Interpretisto link you have been provided. Depending on your role, you may be asked to provide a username or an interpreting language.
 
@@ -58,7 +58,7 @@ The role of an interpreter, essential for any multilingual conference.
 
 As an **Interpreter**, you can stream audio in a specific language channel. You can see and hear what the users with the **Presenter** and **Participant** roles are streaming in video and audio, as well as monitor the chat.
 
-**Interpreters** belonging to a single language pair can talk privately. They can see and hear each other, and have access to a special chat, exclusive to the **Interpreters** of their language pair.
+**Interpreters** belonging to the same language pair can talk privately. They can see and hear each other, and have access to a special chat, exclusive to the **Interpreters** of their language pair.
 
 If you are an **Interpreter**, you will be asked to provide a username and select a langauge pair when logging in.
 
