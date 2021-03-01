@@ -88,7 +88,7 @@ The following UI elements are available to an **Attendee (Event Remote)**:
 
 ![Attendee UI 1](ui_attendee_1.png)
 
-### Additional Materials**
+### Additional Materials
 
 If your role is not **Attendee (Event Local)**, you may see this icon in your UI:
 
@@ -110,11 +110,11 @@ Once there, you can create a new conference by writing its name in the text box 
 
 On the editing screen, you can control every aspect of the conference:
 
--set its name, or rename it at any time in the top section;
--set the time period when the conference will be available using the **Schedule**  section;
--set the language pair, or pairs, that will be used for interpreting - as many as you need, in the **Interpreted Language Pairs** section;
--upload a picture to serve as a logo that all invitees will see in the top right corner of their UI, in the **Logo** section;
--upload any files that you want your invitees (besides the **Attendee (Event Local)** role) to have access to, in the **Additional Materials** section;
+- Set its name, or rename it at any time in the top section;
+- Set the time period when the conference will be available using the **Schedule**  section;
+- Set the language pair, or pairs, that will be used for interpreting - as many as you need, in the **Interpreted Language Pairs** section;
+- Upload a picture to serve as a logo that all invitees will see in the top right corner of their UI, in the **Logo** section;
+- Upload any files that you want your invitees (besides the **Attendee (Event Local)** role) to have access to, in the **Additional Materials** section;
 
 In the top right corner of the UI, you will find a list of links and join codes. They are automatically generated for every available role in this conference, with the **Attendee (Event Local)** and **Interpreter** roles being enabled only for conferences with language pairs selected.
 
