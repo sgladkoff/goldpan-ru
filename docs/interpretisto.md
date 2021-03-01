@@ -98,7 +98,7 @@ If your role is not **Attendee (Event Local)**, you may see this icon in your UI
 
 This icon is not always visible. If it is, it means that the manager of this conference has made additional materials of some kind available to the invitees. Click this button to see the list of files.
 
-## Types of Conferences Possible With Interpretisto
+## Types of Conferences Possible
 
 Interpretisto can be used for creating conferences of any kind. There are no strict pre-set rules, but possible variations include:
 
