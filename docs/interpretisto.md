@@ -92,11 +92,11 @@ The following UI elements are available to an **Attendee (Event Remote)**:
 
 ### Additional Materials
 
-If your role is not **Attendee (Event Local)**, you may see this icon in your UI:
+If your role is not **Attendee (Event Local)**, you may see this button in your UI:
 
 ![download 1](ui_download.png)
 
-This icon is not always visible. If it is, it means that the manager of this conference has made additional materials of some kind available to the invitees. Click this button to see the list of files.
+This button is not always visible. If it is, it means that the manager of this conference has made additional materials of some kind available to the invitees. Click it to see the list of files.
 
 ## Types of Conferences Possible
 
