@@ -72,7 +72,7 @@ This role has been created as an interpretation aid for users intending to atten
 
 As an **Attendee (Event Local)**, you can only listen to streamed audio from available users with the **Interpreter** role, in your chosen language.
 
-If you are a **Attendee (Event Local)**, you will be asked to select your language when logging in.
+If you are a **Attendee (Event Local)**, you will be asked to select an interpreting language when logging in.
 
 ### Attendee (Event Remote)
 
