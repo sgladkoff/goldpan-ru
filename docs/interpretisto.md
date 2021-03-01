@@ -60,6 +60,8 @@ As an **Interpreter**, you can stream audio in a specific language channel. You 
 
 **Interpreters** belonging to the same language pair can talk privately. They can see and hear each other, and have access to a special chat, exclusive to the **Interpreters** of their language pair.
 
+If an **Interpreter** of an appropriate language pair is online, **Participants** and **Attendees** will see a green light on their **Turn interpretation on/off** UI button.
+
 If you are an **Interpreter**, you will be asked to provide a username and select a langauge pair when logging in.
 
 The following UI functions are available to an **Interpreter**:
@@ -96,6 +98,15 @@ If your role is not **Attendee (Event Local)**, you may see this icon in your UI
 
 This icon is not always visible. If it is, it means that the manager of this conference has made additional materials of some kind available to the invitees. Click this button to see the list of files.
 
+## Types of Conferences Possible With Interpretisto
+
+Interpretisto can be used for creating conferences of any kind. There are no strict pre-set rules, but possible variations include:
+
+- A meeting-style conference of equal participants, with all users in the **Participant** role;
+- A conference of equal participants, with users in the **Participant** role and some **Interpreters** invited;
+- A webinar-type conference, with a single **Presenter** speaking, **Attendees** listening and **Interpreters** invited if necessary;
+- A meeting/webinar hybrid, with both **Attendees** and **Participants**;
+
 ## Managing Cofnerences
 
 We've made the UI for managing conference to be as intuitive as possible. You can access the management page by simply clicking the **Manage Conferences** link in the upper right corner of the screen.
@@ -117,5 +128,3 @@ On the editing screen, you can control every aspect of the conference:
 - Upload any files that you want your invitees (besides the **Attendee (Event Local)** role) to have access to, in the **Additional Materials** section;
 
 In the top right corner of the UI, you will find a list of links and join codes. They are automatically generated for every available role in this conference, with the **Attendee (Event Local)** and **Interpreter** roles being enabled only for conferences with language pairs selected.
-
-## Types of Conferences Possible
