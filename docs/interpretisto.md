@@ -14,17 +14,15 @@ We offer enhanced security and confidentiality, without reliance on public RSI s
 
 **Interpretisto** enables its users to participate in conferences in a variety of roles. The role each user gets is determined by the link or code provided to them.
 
-- Presenter: the role for a presenter during a webinar-style conference (Fucntions);
-- Participant: the role for an equal participant during a meeting-style conference (Fucntions);
-- Interpreter: the role of an interpreter, essential for any multilingual conference (Fucntions);
-- Attendee (Event Remote): the role of an attendee during a webinar-style conference (Fucntions);
-- Attendee (Event Local): the role that has been created as an interpretation aid for users intending to attend foreign-language conferences physically (Fucntions);
+- Presenter: the role for a presenter during a webinar-style conference ([Fucntions](http://logrus.co/#/interpretisto?id=presenter));
+- Participant: the role for an equal participant during a meeting-style conference ([Fucntions](http://logrus.co/#/interpretisto?id=participant));
+- Interpreter: the role of an interpreter, essential for any multilingual conference ([Fucntions](http://logrus.co/#/interpretisto?id=interpreter));
+- Attendee (Event Remote): the role of an attendee during a webinar-style conference ([Fucntions](http://logrus.co/#/interpretisto?id=attendee-event-local));
+- Attendee (Event Local): the role that has been created as an interpretation aid for users intending to attend foreign-language conferences physically ([Fucntions](http://logrus.co/#/interpretisto?id=attendee-event-remote));
 
 ## Technical Requirements
 
-An Internet connection with a 5 mbps up/down (or higher) bandwidth is recommended, 
-
-A Firefox 60+ or a Chrome 74+ web browser is recommended for using **Interpretisto**.
+A Firefox 60+ or a Chrome 74+ web browser is recommended for using **Interpretisto** on a desktop or laptop PC.
 
 You can log in to an existing conference simply by using an Interpretisto link you have been provided. If you've been provided a conference code instead of a link, you can enter it in the **Enter Conference Code** field.
 
