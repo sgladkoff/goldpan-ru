@@ -10,27 +10,37 @@ We offer enhanced security and confidentiality, without reliance on public RSI s
 - Communication features: Links to **Interpretisto** Meeting Rooms can be sent out to participants via e-mail, with the date and time of the scheduled event. Group chat, screen sharing and interpreting language selection features are available.
 - Interpreting: The platform provides multichannel audio streaming to support simultaneous translation into several languages in parallel. Interpreters have their own standard controls. They are able to see each other, communicate, pass controls, be on air at different times, and see the public event chat.
 
-## Before You Start
-
-An Internet connection with a 5 mbps up/down (or higher) bandwidth is recommended, with a Firefox 60+ or a Chrome 74+ web browser.
-
-If you have a speaking role, connect your headset and camera and enable your browser to access them prior to entering **Interpretisto**. 
-
-Choose an environment without background noise, and with good lighting if you're using a camera. Remember to keep your microphone muted until it's your turn to speak.
-
-You can log in to an existing conference simply by using an Interpretisto link you have been provided. Depending on your role, you may be asked to provide a username or an interpreting language.
-
-If you've been provided a conference code instead of a link, you can enter it in the **Enter Conference Code** field.
-
 ## Conference Roles
 
 **Interpretisto** enables its users to participate in conferences in a variety of roles. The role each user gets is determined by the link or code provided to them.
 
-It's important to note that the **Interpretisto** UI is adaptive, and will adjust to the available hardware and software, as well as conference settings. If your device does not have a connected webcam or another source of video streaming, the Video Streaming button will not appear in your UI even if your role enables video streaming.
+- Presenter: the role for a presenter during a webinar-style conference (Fucntions);
+- Participant: the role for an equal participant during a meeting-style conference (Fucntions);
+- Interpreter: the role of an interpreter, essential for any multilingual conference (Fucntions);
+- Attendee (Event Remote): the role of an attendee during a webinar-style conference (Fucntions);
+- Attendee (Event Local): the role that has been created as an interpretation aid for users intending to attend foreign-language conferences physically (Fucntions);
+
+## Technical Requirements
+
+An Internet connection with a 5 mbps up/down (or higher) bandwidth is recommended, 
+
+A Firefox 60+ or a Chrome 74+ web browser is recommended for using **Interpretisto**.
+
+You can log in to an existing conference simply by using an Interpretisto link you have been provided. If you've been provided a conference code instead of a link, you can enter it in the **Enter Conference Code** field.
+
+If you have a speaking role, connect your headset and camera and enable your browser to access them prior to entering **Interpretisto**.  Choose an environment without background noise, and with good lighting if you're using a camera. Remember to keep your microphone muted until it's your turn to speak.
+
+- Presenter: an Internet connection with a 5 mbps up/down (or higher) bandwidth is recommended;
+- Participant: 
+- Interpreter: 
+- Attendee (Event Remote): 
+- Attendee (Event Local): 
+
+## Available Functions, Inputs and Outputs
+
+**Interpretisto** provides a unique set of available functions for each user role, as all of them differ in the types of data they can stream and receive.
 
 ### Presenter
-
-The role for a presenter during a webinar-style conference.
 
 As a **Presenter**, you can stream your video and audio, as well as share your screen, if your **On Air** switch is on. You cannot see or hear other participants or access the chat.
 
@@ -41,8 +51,6 @@ The following UI functions are available to a **Presenter**:
 ![Presenter UI 1](ui_presenter_1.png)
 
 ### Participant
-
-The role for an equal participant during a meeting-style conference.
 
 As a **Participant**, you can stream your video and audio, as well as share your screen. You can see and hear what the other **Participants** as well as **Presenters** are streaming in video and audio, as well as access the chat.
 
@@ -55,8 +63,6 @@ The following UI functions are available to a **Participant**:
 ![Participant UI 1](ui_participant_1.png)
 
 ### Interpreter
-
-The role of an interpreter, essential for any multilingual conference.
 
 As an **Interpreter**, you can stream audio if your **On Air** switch is on. Your audio is streamed in a specific channel, audible only to **Participants** and **Attendees**  who have switched on the appropriate interpretation language option, as well as to other **Interpreters** of your language pair.
 
@@ -72,15 +78,11 @@ The following UI functions are available to an **Interpreter**:
 
 ### Attendee (Event Local)
 
-This role has been created as an interpretation aid for users intending to attend foreign-language conferences physically.
-
 As an **Attendee (Event Local)**, you can only listen to streamed audio from available users with the **Interpreter** role, in your chosen language. This role provides no streaming or chat input.
 
 If you are a **Attendee (Event Local)**, you will be asked to select an interpreting language when logging in.
 
 ### Attendee (Event Remote)
-
-The role of an attendee during a webinar-style conference.
 
 As an **Attendee (Event Remote)**, you can see and hear what the users with the **Presenter** and **Participant** roles are streaming in video and audio, as well as monitor the chat. This role provides no streaming or chat input.
 
@@ -92,22 +94,8 @@ The following UI elements are available to an **Attendee (Event Remote)**:
 
 ![Attendee UI 1](ui_attendee_1.png)
 
-## Additional Materials
 
-If your role is not **Attendee (Event Local)**, you may see this button in your UI:
-
-![download 1](ui_download.png)
-
-This button is not always visible. If it is, it means that the manager of this conference has made additional materials of some kind available to the invitees. Click it to see the list of files.
-
-## Types of Conferences Possible
-
-Interpretisto can be used for creating conferences of any kind. There are no strict pre-set rules, but possible variations include:
-
-- A meeting-style conference of equal participants, with all users in the **Participant** role;
-- A conference of equal participants, with users in the **Participant** role and some **Interpreters** invited;
-- A webinar-type conference, with a single **Presenter** speaking, **Attendees** listening and **Interpreters** invited if necessary;
-- A meeting/webinar hybrid, with both **Attendees** and **Participants**;
+It's important to note that the **Interpretisto** UI is adaptive, and will adjust to the available hardware and software, as well as conference settings. If your device does not have a connected webcam or another source of video streaming, the Video Streaming button will not appear in your UI even if your role enables video streaming. Similarly, if the conference has no language pairs selected - i.e., does not require interpretation - the **Turn interpretation on/off** button will not appear, and, if the conference does not include any additional materials, the **Download additional materials** button will not appear either.
 
 ## Managing Cofnerences
 
@@ -130,3 +118,12 @@ On the editing screen, you can control every aspect of the conference:
 - Upload any files that you want your invitees (besides the **Attendee (Event Local)** role) to have access to, in the **Additional Materials** section;
 
 In the top right corner of the UI, you will find a list of links and join codes. They are automatically generated for every available role in this conference, with the **Attendee (Event Local)** and **Interpreter** roles being enabled only for conferences with language pairs selected. Additionally, if no pairs have been selected, the **Participants** and **Attendees** will not have the **Turn interpretation on/off** button appear in their UI.
+
+## Types of Conferences Possible
+
+Interpretisto can be used for creating conferences of any kind. There are no strict pre-set rules, but possible variations include:
+
+- A meeting-style conference of equal participants, with all users in the **Participant** role;
+- A conference of equal participants, with users in the **Participant** role and some **Interpreters** invited;
+- A webinar-type conference, with a single **Presenter** speaking, **Attendees** listening and **Interpreters** invited if necessary;
+- A meeting/webinar hybrid, with both **Attendees** and **Participants**;
