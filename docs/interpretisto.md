@@ -40,6 +40,8 @@ The various user roles in **Interpretisto** have different requirements to your 
 
 **Interpretisto** provides a unique set of available functions for each user role, as all of them differ in the types of data they can stream and receive.
 
+It's important to note that the **Interpretisto** UI is adaptive, and will adjust to the available hardware and software, as well as conference settings. If your device does not have a connected webcam or another source of video streaming, the **Video Streaming** button will not appear in your UI even if your role enables video streaming. Similarly, if the conference has no language pairs selected - i.e., does not require interpretation - the **Turn interpretation on/off** button will not appear, and, if the conference does not include any additional materials, the **Download additional materials** button will not appear either.
+
 ### Presenter
 
 As a **Presenter**, you can stream your video and audio, as well as share your screen, if your **On Air** switch is on. You cannot see or hear other participants or access the chat.
@@ -105,9 +107,6 @@ You will be asked to select an interpreting language when logging in.
 The following UI elements are available to an **Attendee (Event Local)**:
 
 ![Attendee UI 1](ui_attendee_local_1.png)
-
-
-It's important to note that the **Interpretisto** UI is adaptive, and will adjust to the available hardware and software, as well as conference settings. If your device does not have a connected webcam or another source of video streaming, the Video Streaming button will not appear in your UI even if your role enables video streaming. Similarly, if the conference has no language pairs selected - i.e., does not require interpretation - the **Turn interpretation on/off** button will not appear, and, if the conference does not include any additional materials, the **Download additional materials** button will not appear either.
 
 ## Managing Cofnerences
 
