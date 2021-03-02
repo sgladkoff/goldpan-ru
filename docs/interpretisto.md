@@ -18,7 +18,7 @@ We offer enhanced security and confidentiality, without reliance on public RSI s
 - Participant: the role for an equal participant during a meeting-style conference ([Functions](http://logrus.co/#/interpretisto?id=participant));
 - Interpreter: the role of an interpreter, essential for any multilingual conference ([Functions](http://logrus.co/#/interpretisto?id=interpreter));
 - Attendee (Event Remote): the role of an attendee during a webinar-style conference ([Functions](http://logrus.co/#/interpretisto?id=attendee-event-local));
-- Attendee (Event Local): the role that has been created as an interpretation aid for users intending to attend foreign-language conferences physically ([Functions](http://logrus.co/#/interpretisto?id=attendee-event-remote));
+- Attendee (Event Local): the role of an attendee during a physical foreign-language conference ([Functions](http://logrus.co/#/interpretisto?id=attendee-event-remote));
 
 ## Technical Requirements
 
@@ -44,9 +44,9 @@ The various user roles in **Interpretisto** have different requirements to your 
 
 As a **Presenter**, you can stream your video and audio, as well as share your screen, if your **On Air** switch is on. You cannot see or hear other participants or access the chat.
 
-If you are a **Presenter**, you won't be asked to provide any extra information when logging in.
-
 You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
+
+You won't be asked to provide any extra information when logging in.
 
 The following UI functions are available to a **Presenter**:
 
@@ -58,9 +58,9 @@ As a **Participant**, you can stream your video and audio, as well as share your
 
 If the conference has interpretation enabled, you will be able to choose your preferred language in order to filter out the users with the **Interpreter** role that are translating into that language. Any other audio will be reduced in volume to 30%, by default (you can change this in the Options), when the **Interpreter** is speaking. A green light will appear on your **Turn interpretation on/off** UI button if an **Interpreter** of the appropriate language pair is online.
 
-If you are a **Participant**, you will be asked to provide a username when logging in.
-
 You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
+
+You will be asked to provide a username when logging in.
 
 The following UI functions are available to a **Participant**:
 
@@ -74,19 +74,13 @@ You can see and hear what the users with the **Presenter** and **Participant** r
 
 **Interpreters** belonging to the same language pair can talk privately. They can see and hear each other, and have access to a private chat, exclusive to the **Interpreters** of their language pair.
 
-If you are an **Interpreter**, you will be asked to provide a username and select a langauge pair when logging in.
-
 You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
+
+You will be asked to provide a username and select a langauge pair when logging in.
 
 The following UI functions are available to an **Interpreter**:
 
 ![Interpreter UI 1](ui_interpreter_1.png)
-
-### Attendee (Event Local)
-
-As an **Attendee (Event Local)**, you can only listen to streamed audio from available users with the **Interpreter** role, in your chosen language. This role provides no streaming or chat input.
-
-If you are a **Attendee (Event Local)**, you will be asked to select an interpreting language when logging in.
 
 ### Attendee (Event Remote)
 
@@ -94,13 +88,23 @@ As an **Attendee (Event Remote)**, you can see and hear what the users with the 
 
 If the conference has interpretation enabled, you will be able to choose your preferred language in order to filter out the users with the **Interpreter** role that are translating into that language. Any other audio will be reduced in volume to 30%, by default (you can change this in the Options), when the **Interpreter** is speaking. A green light will appear on your **Turn interpretation on/off** UI button if an **Interpreter** of the appropriate language pair is online.
 
-if you are an **Attendee (Event Remote)**, you won't be asked to provide any extra information when logging in.
-
 You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
+
+You won't be asked to provide any extra information when logging in.
 
 The following UI elements are available to an **Attendee (Event Remote)**:
 
 ![Attendee UI 1](ui_attendee_1.png)
+
+### Attendee (Event Local)
+
+As an **Attendee (Event Local)**, you can only listen to streamed audio from available users with the **Interpreter** role, in your chosen language. This role provides no streaming or chat input.
+
+You will be asked to select an interpreting language when logging in.
+
+The following UI elements are available to an **Attendee (Event Local)**:
+
+![Attendee UI 1](ui_attendee_local_1.png)
 
 
 It's important to note that the **Interpretisto** UI is adaptive, and will adjust to the available hardware and software, as well as conference settings. If your device does not have a connected webcam or another source of video streaming, the Video Streaming button will not appear in your UI even if your role enables video streaming. Similarly, if the conference has no language pairs selected - i.e., does not require interpretation - the **Turn interpretation on/off** button will not appear, and, if the conference does not include any additional materials, the **Download additional materials** button will not appear either.
@@ -125,7 +129,7 @@ On the editing screen, you can control every aspect of the conference:
 - Upload a picture to serve as a logo that all invitees will see in the top right corner of their UI, in the **Logo** section;
 - Upload any files that you want your invitees (besides the **Attendee (Event Local)** role) to have access to, in the **Additional Materials** section;
 
-In the top right corner of the UI, you will find a list of links and join codes. They are automatically generated for every available role in this conference, with the **Attendee (Event Local)** and **Interpreter** roles being enabled only for conferences with language pairs selected. Additionally, if no pairs have been selected, the **Participants** and **Attendees** will not have the **Turn interpretation on/off** button appear in their UI.
+In the top right corner of the UI, you will find a list of links and join codes. They are automatically generated for every available role in this conference, with the **Attendee (Event Local)** and **Interpreter** roles being enabled only for conferences with language pairs selected.
 
 ## Types of Conferences Possible
 
