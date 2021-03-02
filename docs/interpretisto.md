@@ -26,7 +26,9 @@ A Firefox 60+ or a Chrome 74+ web browser is recommended for using **Interpretis
 
 You can log in to an existing conference simply by using an Interpretisto link you have been provided. If you've been provided a conference code instead of a link, you can enter it in the **Enter Conference Code** field.
 
-If you have a speaking role, connect your headset and camera and enable your browser to access them prior to entering **Interpretisto**.  Choose an environment without background noise, and with good lighting if you're using a camera. Remember to keep your microphone muted until it's your turn to speak.
+If you have a speaking role, connect your headset and camera and enable your browser to access them prior to entering **Interpretisto**.  Choose an environment without background noise, and with good lighting if you're using a camera to stream video. Remember to keep your microphone muted until it's your turn to speak.
+
+The various user roles in **Interpretisto** have different requirements to your connection speed:
 
 - Presenter: an Internet connection with a 5 mbps up/down (or higher) bandwidth is recommended;
 - Participant: 
@@ -44,6 +46,8 @@ As a **Presenter**, you can stream your video and audio, as well as share your s
 
 If you are a **Presenter**, you won't be asked to provide any extra information when logging in.
 
+You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
+
 The following UI functions are available to a **Presenter**:
 
 ![Presenter UI 1](ui_presenter_1.png)
@@ -55,6 +59,8 @@ As a **Participant**, you can stream your video and audio, as well as share your
 If the conference has interpretation enabled, you will be able to choose your preferred language in order to filter out the users with the **Interpreter** role that are translating into that language. Any other audio will be reduced in volume to 30%, by default (you can change this in the Options), when the **Interpreter** is speaking. A green light will appear on your **Turn interpretation on/off** UI button if an **Interpreter** of the appropriate language pair is online.
 
 If you are a **Participant**, you will be asked to provide a username when logging in.
+
+You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
 
 The following UI functions are available to a **Participant**:
 
@@ -69,6 +75,8 @@ You can see and hear what the users with the **Presenter** and **Participant** r
 **Interpreters** belonging to the same language pair can talk privately. They can see and hear each other, and have access to a private chat, exclusive to the **Interpreters** of their language pair.
 
 If you are an **Interpreter**, you will be asked to provide a username and select a langauge pair when logging in.
+
+You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
 
 The following UI functions are available to an **Interpreter**:
 
@@ -87,6 +95,8 @@ As an **Attendee (Event Remote)**, you can see and hear what the users with the 
 If the conference has interpretation enabled, you will be able to choose your preferred language in order to filter out the users with the **Interpreter** role that are translating into that language. Any other audio will be reduced in volume to 30%, by default (you can change this in the Options), when the **Interpreter** is speaking. A green light will appear on your **Turn interpretation on/off** UI button if an **Interpreter** of the appropriate language pair is online.
 
 if you are an **Attendee (Event Remote)**, you won't be asked to provide any extra information when logging in.
+
+You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
 
 The following UI elements are available to an **Attendee (Event Remote)**:
 
