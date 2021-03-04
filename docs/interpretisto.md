@@ -28,7 +28,7 @@ If you have a speaking role, connect your headset and camera and enable your bro
 
 The various user roles in **Interpretisto** have different requirements to your connection speed:
 
-| Role | Up/down connection speed | Camera | Microphone | Headset | Decive Type |
+| Role | Up/down connection speed | Camera | Microphone | Headset | Device Type |
 | --------------- | -------------------- | ----------- | ----------- | ----------- | ------------------ |
 | Participant | 5 mbps or higher | Optional | Required | Required | Desktop, laptop or smartphone |
 | Remote Attendee | 5 mbps or higher | Not required | Not required | Required | Desktop, laptop or smartphone |
