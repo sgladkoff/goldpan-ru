@@ -22,19 +22,17 @@ We offer enhanced security and confidentiality, without reliance on public RSI s
 
 ## Technical Requirements
 
-A Firefox 60+ or a Chrome 74+ web browser is recommended for using **Interpretisto** on a desktop or laptop PC.
+The various user roles in **Interpretisto** have differing sets of requirements to your connection speed,  software and hardware:
 
-If you have a speaking role, connect your headset and camera and enable your browser to access them prior to entering **Interpretisto**.  Choose an environment without background noise, and with good lighting if you're using a camera to stream video. Remember to keep your microphone muted until it's your turn to speak.
-
-The various user roles in **Interpretisto** have different requirements to your connection speed and hardware:
-
-| Role | Up/down connection speed | Camera | Microphone | Headset | Device Type |
+| Role | Up/down connection speed | Web Browser| Camera | Microphone | Headset | Device Type |
 | --------------- | -------------------- | ----------- | ----------- | ----------- | ------------------ |
-| Participant | 5 mbps or higher | Optional | Required | Required | Desktop, laptop or smartphone |
-| Remote Attendee | 5 mbps or higher | Not required | Not required | Required | Desktop, laptop or smartphone |
-| Presenter | 5 mbps or higher | Required | Required | Not required | Desktop or laptop |
-| Interpreter | 10 mbps or higher* | Optional | Required | Required | Desktop or laptop |
-| Local Attendee | 5 mbps or higher | Not required | Not required | Required | Smartphone |
+| Participant | 5 mbps or higher | Firefox 60+ or Chrome 74+ | Optional | Required | Required | Desktop, laptop or smartphone |
+| Remote Attendee | 5 mbps or higher | Firefox 60+ or Chrome 74+ | Not required | Not required | Required | Desktop, laptop or smartphone |
+| Presenter | 5 mbps or higher | Firefox 60+ or Chrome 74+ | Required | Required | Not required | Desktop or laptop |
+| Interpreter | 10 mbps or higher\* | Firefox 60+ or Chrome 74+ | Optional | Required | Required | Desktop or laptop |
+| Local Attendee | 5 mbps or higher | Firefox 60+ or Chrome 74+ | Not required | Not required | Required | Smartphone |
+
+Connect your headset and camera and enable your browser to access them prior to entering **Interpretisto**.  Choose an environment without background noise, and with good lighting if you're using a camera to stream video. Remember to keep your microphone muted until it's your turn to speak.
 
 \* *cable connection desired for greater stability*
 
