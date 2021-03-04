@@ -30,7 +30,7 @@ The various user roles in **Interpretisto** have different requirements to your 
 
 | Role | Up/down connection speed | Camera | Microphone | Headset | Decive Type |
 | --------------- | -------------------- | ----------- | ----------- | ----------- | ------------------ |
-| Participant | 5 mbps or higher | Optional | Required | Not required | Desktop, laptop or smartphone |
+| Participant | 5 mbps or higher | Optional | Required | Required | Desktop, laptop or smartphone |
 | Remote Attendee | 5 mbps or higher | Not required | Not required | Required | Desktop, laptop or smartphone |
 | Presenter | 5 mbps or higher | Required | Required | Not required | Desktop or laptop |
 | Interpreter | 10 mbps or higher* | Optional | Required | Required | Desktop or laptop |
