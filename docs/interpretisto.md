@@ -30,11 +30,13 @@ If you have a speaking role, connect your headset and camera and enable your bro
 
 The various user roles in **Interpretisto** have different requirements to your connection speed:
 
-- Presenter: an Internet connection with a 5 mbps up/down (or higher) bandwidth is recommended;
-- Participant: 
-- Interpreter: 
-- Attendee (Event Remote): 
-- Attendee (Event Local): 
+| Role | Up/down connection speed | Camera | Microphone | Headset | Decive Type |
+| --------------- | -------------------- | ----------- | ----------- | ----------- | ------------------ |
+| Participant | 5 mbps or higher | Optional | Required | Not required | Desktop, laptop or smartphone |
+| Remote Attendee | 5 mbps or higher | Not required | Not required | Required | Desktop, laptop or smartphone |
+| Presenter | 5 mbps or higher | Required | Required | Not required | Desktop or laptop |
+| Interpreter | 10 mbps or higher, cable connection desired for greater stability | Optional | Required | Required | Desktop or laptop |
+| Local Attendee | 5 mbps or higher | Not required | Not required | Required | Smartphone |
 
 ## Available Functions, Inputs and Outputs
 
@@ -44,11 +46,11 @@ It's important to note that the **Interpretisto** UI is adaptive, and will adjus
 
 ### Presenter
 
-As a **Presenter**, you can stream your video and audio, as well as share your screen, if your **On Air** switch is on. You cannot see or hear other participants or access the chat.
+As a **Presenter**, you can stream your video and audio, as well as share your screen. You cannot see or hear other participants or access the chat.
 
 You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
 
-You won't be asked to provide any extra information when logging in.
+The **On Air** switch starts your presentation, enabling you to stream audio.
 
 The following UI functions are available to a **Presenter**:
 
@@ -70,11 +72,13 @@ The following UI functions are available to a **Participant**:
 
 ### Interpreter
 
-As an **Interpreter**, you can stream audio if your **On Air** switch is on. Your audio is streamed in a specific channel, audible only to **Participants** and **Attendees**  who have switched on the appropriate interpretation language option, as well as to other **Interpreters** of your language pair.
+As an **Interpreter**, you can stream audio in a specific channel, audible only to **Participants** and **Attendees** who have switched on the appropriate interpretation language option, as well as to other **Interpreters** of your language pair.
 
 You can see and hear what the users with the **Presenter** and **Participant** roles are streaming in video (active speaker only) and audio, as well as monitor the chat.
 
 **Interpreters** belonging to the same language pair can talk privately. They can see and hear each other, and have access to a private chat, exclusive to the **Interpreters** of their language pair.
+
+The **On Air** switch signals that you are prepared to start interpreting, enabling you to stream audio.
 
 You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
 
@@ -91,8 +95,6 @@ As an **Attendee (Event Remote)**, you can see and hear what the users with the 
 If the conference has interpretation enabled, you will be able to choose your preferred language in order to filter out the users with the **Interpreter** role that are translating into that language. Any other audio will be reduced in volume to 30%, by default (you can change this in the Options), when the **Interpreter** is speaking. A green light will appear on your **Turn interpretation on/off** UI button if an **Interpreter** of the appropriate language pair is online.
 
 You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
-
-You won't be asked to provide any extra information when logging in.
 
 The following UI elements are available to an **Attendee (Event Remote)**:
 
