@@ -42,7 +42,7 @@ The various user roles in **Interpretisto** have different requirements to your 
 
 ![interpretisto_enter](interpretisto_enter.png)
 
-1. Enter the Interpretisto link you've been provided in your web browser to access your session.
+1. Enter the Interpretisto link you've been provided in your web browser to access your conference.
 2. Alternatively, visit http://interpretisto.logrusglobal.com to enter your conference code and press the **Join Conference** button.
 
 ## Available Functions, Inputs and Outputs
