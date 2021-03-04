@@ -24,7 +24,7 @@ We offer enhanced security and confidentiality, without reliance on public RSI s
 
 The various user roles in **Interpretisto** have differing sets of requirements to your connection speed,  software and hardware:
 
-| Role | Up/down connection speed | Web Browser| Camera | Microphone | Headset | Device Type |
+| Role | Up/down connection speed | Web Browser | Camera | Microphone | Headset | Device Type |
 | --------------- | -------------------- | ----------- | ----------- | ----------- | ------------------ |
 | Participant | 5 mbps or higher | Firefox 60+ or Chrome 74+ | Optional | Required | Required | Desktop, laptop or smartphone |
 | Remote Attendee | 5 mbps or higher | Firefox 60+ or Chrome 74+ | Not required | Not required | Required | Desktop, laptop or smartphone |
