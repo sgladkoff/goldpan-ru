@@ -24,8 +24,6 @@ We offer enhanced security and confidentiality, without reliance on public RSI s
 
 A Firefox 60+ or a Chrome 74+ web browser is recommended for using **Interpretisto** on a desktop or laptop PC.
 
-You can log in to an existing conference simply by using an Interpretisto link you have been provided. If you've been provided a conference code instead of a link, you can enter it in the **Enter Conference Code** field.
-
 If you have a speaking role, connect your headset and camera and enable your browser to access them prior to entering **Interpretisto**.  Choose an environment without background noise, and with good lighting if you're using a camera to stream video. Remember to keep your microphone muted until it's your turn to speak.
 
 The various user roles in **Interpretisto** have different requirements to your connection speed:
@@ -39,6 +37,13 @@ The various user roles in **Interpretisto** have different requirements to your 
 | Local Attendee | 5 mbps or higher | Not required | Not required | Required | Smartphone |
 
 \** cable connection desired for greater stability
+
+## Connecting to Interpretisto
+
+![interpretisto_enter](interpretisto_enter.png)
+
+1: Enter the Interpretisto link you've been provided in your web browser to access your session.
+2: Alternatively, visit http://interpretisto.logrusglobal.com to enter your conference code and press the **Join Conference** button.
 
 ## Available Functions, Inputs and Outputs
 
