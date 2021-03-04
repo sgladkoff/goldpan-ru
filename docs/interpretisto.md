@@ -35,8 +35,10 @@ The various user roles in **Interpretisto** have different requirements to your 
 | Participant | 5 mbps or higher | Optional | Required | Not required | Desktop, laptop or smartphone |
 | Remote Attendee | 5 mbps or higher | Not required | Not required | Required | Desktop, laptop or smartphone |
 | Presenter | 5 mbps or higher | Required | Required | Not required | Desktop or laptop |
-| Interpreter | 10 mbps or higher, cable connection desired for greater stability | Optional | Required | Required | Desktop or laptop |
+| Interpreter | 10 mbps or higher* | Optional | Required | Required | Desktop or laptop |
 | Local Attendee | 5 mbps or higher | Not required | Not required | Required | Smartphone |
+
+\** cable connection desired for greater stability
 
 ## Available Functions, Inputs and Outputs
 
