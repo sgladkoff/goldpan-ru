@@ -26,7 +26,7 @@ A Firefox 60+ or a Chrome 74+ web browser is recommended for using **Interpretis
 
 If you have a speaking role, connect your headset and camera and enable your browser to access them prior to entering **Interpretisto**.  Choose an environment without background noise, and with good lighting if you're using a camera to stream video. Remember to keep your microphone muted until it's your turn to speak.
 
-The various user roles in **Interpretisto** have different requirements to your connection speed:
+The various user roles in **Interpretisto** have different requirements to your connection speed and hardware:
 
 | Role | Up/down connection speed | Camera | Microphone | Headset | Device Type |
 | --------------- | -------------------- | ----------- | ----------- | ----------- | ------------------ |
