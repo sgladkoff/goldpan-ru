@@ -59,7 +59,16 @@ The **On Air** switch starts your presentation, enabling you to stream audio.
 
 The following UI functions are available to a **Presenter**:
 
-![Presenter UI 1](ui_presenter_1.png)
+![Presenter UI 1](full_presenter.png)
+
+*1: Video Streaming On/Off and streaming source selection*
+*2: Audio Streaming On/Off*
+*3: Screen Sharing On/Off*
+*4: My Camera View On/Off*
+*5: Download Additional Materials*
+*6: Options Menu*
+*7: Video Streaming Window*
+*8: On Air switch & Mute*
 
 ### Participant
 
