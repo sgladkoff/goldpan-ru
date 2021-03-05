@@ -57,7 +57,7 @@ You will have access to the additional materials of the conference (if any) via 
 
 The **On Air** switch starts your presentation, enabling you to stream audio.
 
-The following UI functions are available to a **Presenter**:
+The following UI elements and functions are available to a **Presenter**:
 
 ![Presenter UI 1](full_presenter.png)
 
