@@ -110,7 +110,22 @@ You will have access to the additional materials of the conference (if any) via 
 
 You will be asked to provide a username and select a langauge pair when logging in.
 
-The following UI functions are available to an **Interpreter**:
+The following UI elements and functions are available to an **Interpreter**:
+
+1. *Video Streaming On/Off and streaming source selection*
+2. *Audio Streaming On/Off*
+3. *Interpreter Panel Show/Hide*
+4. *Chat Window Show/Hide*
+5. *My Camera View On/Off*
+6. *Download Additional Materials*
+7. *Options Menu*
+8. *On Air Switch*
+9. *Interpretation language selection*
+10. *Mute*
+11. *Interpreter Panel*
+12. *Current Speaker*
+13. *Chat Window*
+14. *Leave Conference*
 
 ![Interpreter UI 1](ui_interpreter_1.png)
 
