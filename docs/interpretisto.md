@@ -112,6 +112,8 @@ You will be asked to provide a username and select a langauge pair when logging 
 
 The following UI elements and functions are available to an **Interpreter**:
 
+![Interpreter UI 1](interpreter_full.png)
+
 1. *Video Streaming On/Off and streaming source selection*
 2. *Audio Streaming On/Off*
 3. *Interpreter Panel Show/Hide*
@@ -127,7 +129,7 @@ The following UI elements and functions are available to an **Interpreter**:
 13. *Chat Window*
 14. *Leave Conference*
 
-![Interpreter UI 1](ui_interpreter_1.png)
+
 
 ### Attendee (Event Remote)
 
@@ -147,9 +149,12 @@ As an **Attendee (Event Local)**, you can only listen to streamed audio from ava
 
 You will be asked to select an interpreting language when logging in.
 
-The following UI elements are available to an **Attendee (Event Local)**:
+The following UI elements and functions are available to an **Attendee (Event Local)**:
 
 ![Attendee UI 1](ui_attendee_local_1.png)
+
+1. *Interpretation language selection*
+2. *Interpretation On/off*
 
 ## Managing Cofnerences
 
