@@ -80,9 +80,21 @@ You will have access to the additional materials of the conference (if any) via 
 
 You will be asked to provide a username when logging in.
 
-The following UI functions are available to a **Participant**:
+The following UI elements and functions are available to a **Participant**:
 
-![Participant UI 1](ui_participant_1.png)
+![Participant UI 1](participant_full.png)
+
+1. *Video Streaming On/Off and streaming source selection (on this screenshot, the user has no video streaming source available, thus streaming is disabled as is the My Camera View On/Off button)*
+2. *Audio Streaming On/Off*
+3. *Screen Sharing On/Off*
+4. *Participant Panel Show/Hide*
+5. *Chat Window Show/Hide*
+6. *Interpretation On/Off and interpretation language selection*
+7. *Options Menu (the Download Additional Materials is shown above this one if any materials are available)*
+8. *Participant Panel*
+9. *Current Speaker View*
+10. *Chat Window*
+11. *Leave Conference*
 
 ### Interpreter
 
