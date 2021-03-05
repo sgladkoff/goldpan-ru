@@ -139,9 +139,19 @@ If the conference has interpretation enabled, you will be able to choose your pr
 
 You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
 
-The following UI elements are available to an **Attendee (Event Remote)**:
+The following UI elements and functions are available to an **Attendee (Event Remote)**:
 
-![Attendee UI 1](ui_attendee_1.png)
+![Attendee UI 1](attendee_full.png)
+
+1. *Participant Panel Show/Hide*
+2. *Chat Window Show/Hide*
+3. *Interpretation On/Off and interpretation language selection*
+4. *Download Additional Materials*
+5. *Options Menu*
+6. *Participant Panel*
+7. *Current Speaker*
+8. *Chat Window*
+9. *Leave Conference*
 
 ### Attendee (Event Local)
 
