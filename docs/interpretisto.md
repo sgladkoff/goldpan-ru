@@ -38,10 +38,10 @@ Connect your headset and camera and enable your browser to access them prior to 
 
 ## Connecting to Interpretisto
 
-![interpretisto_enter](interpretisto_enter.png)
-
 1. Enter the Interpretisto link you've been provided in your web browser to access your conference.
 2. Alternatively, visit http://interpretisto.logrusglobal.com to enter your conference code and press the **Join Conference** button.
+
+![interpretisto_enter](interpretisto_enter.png)
 
 ## Available Functions, Inputs and Outputs
 
@@ -55,11 +55,11 @@ As a **Presenter**, you can stream your video and audio, as well as share your s
 
 You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
 
-The **On Air** switch starts your presentation, enabling you to stream audio.
+The **On Air** switch starts your presentation, enabling you to stream video and audio.
 
 The following UI elements and functions are available to a **Presenter**:
 
-![Presenter UI 1](full_presenter.png)
+![Presenter UI](presenter_v2.png)
 
 1. *Video Streaming On/Off and streaming source selection*
 2. *Audio Streaming On/Off*
@@ -74,7 +74,7 @@ The following UI elements and functions are available to a **Presenter**:
 
 As a **Participant**, you can stream your video and audio, as well as share your screen. You can see and hear what the other **Participants** as well as **Presenters** are streaming in video and audio, as well as access the chat.
 
-If the conference has interpretation enabled, you will be able to choose your preferred language in order to filter out the users with the **Interpreter** role that are translating into that language. Any other audio will be reduced in volume to 30%, by default (you can change this in the Options), when the **Interpreter** is speaking. A green light will appear on your **Turn interpretation on/off** UI button if an **Interpreter** of the appropriate language pair is online.
+If the conference has interpretation enabled, you will be able to choose your preferred language in order to hear the simultaneous interpretation being done for that language. Any other audio will be reduced in volume to 30%, by default, to make the interpreration easier to hear. You can change this reduction rate in the **Options** menu. A green light will appear on your **Turn interpretation on/off** UI button if an **Interpreter** of the appropriate language pair is online.
 
 You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
 
@@ -82,7 +82,7 @@ You will be asked to provide a username when logging in.
 
 The following UI elements and functions are available to a **Participant**:
 
-![Participant UI 1](participant_full.png)
+![Participant UI](participant_v2.png)
 
 1. *Video Streaming On/Off and streaming source selection (on this screenshot, the user has no video streaming source available, thus streaming is disabled as is the My Camera View On/Off button)*
 2. *Audio Streaming On/Off*
@@ -90,11 +90,12 @@ The following UI elements and functions are available to a **Participant**:
 4. *Participant Panel Show/Hide*
 5. *Chat Window Show/Hide*
 6. *Interpretation On/Off and interpretation language selection*
-7. *Options Menu (the Download Additional Materials is shown above this one if any materials are available)*
-8. *Participant Panel*
-9. *Current Speaker View*
-10. *Chat Window*
-11. *Leave Conference*
+7. *Download Additional Materials*
+8. *Options Menu*
+9. *Participant Panel*
+10. *Current Speaker View*
+11. *Chat Window*
+12. *Leave Conference*
 
 ### Interpreter
 
@@ -112,7 +113,7 @@ You will be asked to provide a username and select a langauge pair when logging 
 
 The following UI elements and functions are available to an **Interpreter**:
 
-![Interpreter UI 1](interpreter_full.png)
+![Interpreter UI](interpreter_v2.png)
 
 1. *Video Streaming On/Off and streaming source selection*
 2. *Audio Streaming On/Off*
@@ -127,7 +128,8 @@ The following UI elements and functions are available to an **Interpreter**:
 11. *Interpreter Panel*
 12. *Current Speaker*
 13. *Chat Window*
-14. *Leave Conference*
+14. *My Camera View (present due to the My Camera View switch being put in the ON position)*
+15. *Leave Conference*
 
 
 
@@ -135,13 +137,13 @@ The following UI elements and functions are available to an **Interpreter**:
 
 As an **Attendee (Event Remote)**, you can see and hear what the users with the **Presenter** and **Participant** roles are streaming in video and audio, as well as monitor the chat. This role provides no streaming or chat input.
 
-If the conference has interpretation enabled, you will be able to choose your preferred language in order to filter out the users with the **Interpreter** role that are translating into that language. Any other audio will be reduced in volume to 30%, by default (you can change this in the Options), when the **Interpreter** is speaking. A green light will appear on your **Turn interpretation on/off** UI button if an **Interpreter** of the appropriate language pair is online.
+If the conference has interpretation enabled, you will be able to choose your preferred language in order to hear the simultaneous interpretation being done for that language. Any other audio will be reduced in volume to 30%, by default, to make the interpreration easier to hear. You can change this reduction rate in the **Options** menu. A green light will appear on your **Turn interpretation on/off** UI button if an **Interpreter** of the appropriate language pair is online.
 
 You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
 
 The following UI elements and functions are available to an **Attendee (Event Remote)**:
 
-![Attendee UI 1](attendee_full.png)
+![Attendee UI](attendee_v2.png)
 
 1. *Participant Panel Show/Hide*
 2. *Chat Window Show/Hide*
@@ -161,7 +163,7 @@ You will be asked to select an interpreting language when logging in.
 
 The following UI elements and functions are available to an **Attendee (Event Local)**:
 
-![Attendee UI 1](ui_attendee_local_1.png)
+![Attendee UI 2](ui_attendee_local_1.png)
 
 1. *Interpretation language selection*
 2. *Interpretation On/off*
