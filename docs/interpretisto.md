@@ -12,7 +12,7 @@ We offer enhanced security and confidentiality, without reliance on public RSI s
 
 ## Conference Roles
 
-**Interpretisto** enables its users to participate in conferences in a variety of roles. The role each user gets is determined by the link or code provided to them.
+**Interpretisto** enables its users to participate in conferences in a variety of roles. Links and join codes are generated for every applicable role in a conference.
 
 - Presenter: the role for a presenter during a webinar-style conference ([Functions](http://logrus.co/#/interpretisto?id=presenter));
 - Participant: the role for an equal participant during a meeting-style conference ([Functions](http://logrus.co/#/interpretisto?id=participant));
@@ -43,7 +43,19 @@ Connect your headset and camera and enable your browser to access them prior to 
 
 ![interpretisto_enter](interpretisto_enter.png)
 
-## Available Functions, Inputs and Outputs
+If you have the **Presenter** or **Attendee (Event Local)** role, you will enter the conference immediately.
+
+However, if you have the **Participant**, **Interpreter** or **Attendee (Event Remote)** role, you will arrive at the conference connection screen:
+
+![interpretisto_enter](interpretisto_entry.png)
+
+Here, you can access the settings for various conference functions that are available to your role, such as video and audio streaming (1, 2), your camera view (3), additional materials (4) and the options menu (5) prior to connecting. 
+
+If you have the **Participant** or **Interpreter** role, you will need to enter your username (6) before connecting. As an **Interpreter**, you will also need to pick a language pair.
+
+When you are done, press the **Connect** button (7) to enter the conference.
+
+## Available Functions
 
 **Interpretisto** provides a unique set of available functions for each user role, as all of them differ in the types of data they can stream and receive.
 
@@ -51,7 +63,7 @@ It's important to note that the **Interpretisto** UI is adaptive, and will adjus
 
 ### Presenter
 
-As a **Presenter**, you can stream your video and audio, as well as share your screen. You cannot see or hear other participants or access the chat.
+As a **Presenter**, you can stream your video and audio, as well as share your screen.
 
 You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
 
@@ -72,13 +84,16 @@ The following UI elements and functions are available to a **Presenter**:
 
 ### Participant
 
-As a **Participant**, you can stream your video and audio, as well as share your screen. You can see and hear what the other **Participants** as well as **Presenters** are streaming in video and audio, as well as access the chat.
+As a **Participant**, you can:
+
+- Stream your video and audio;
+- Share your screen;
+- See and hear what the other **Participants** and **Presenters** are streaming and sharing;
+- Access the chat.
 
 If the conference has interpretation enabled, you will be able to choose your preferred language in order to hear the simultaneous interpretation being done for that language. Any other audio will be reduced in volume to 30%, by default, to make the interpreration easier to hear. You can change this reduction rate in the **Options** menu. A green light will appear on your **Turn interpretation on/off** UI button if an **Interpreter** of the appropriate language pair is online.
 
 You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
-
-You will be asked to provide a username when logging in.
 
 The following UI elements and functions are available to a **Participant**:
 
@@ -99,17 +114,17 @@ The following UI elements and functions are available to a **Participant**:
 
 ### Interpreter
 
-As an **Interpreter**, you can stream audio in a specific channel, audible only to **Participants** and **Attendees** who have switched on the appropriate interpretation language option, as well as to other **Interpreters** of your language pair.
+As an **Interpreter**, you can see and hear what the users with the **Presenter** and **Participant** roles are streaming in video (active speaker only) and audio.
 
-You can see and hear what the users with the **Presenter** and **Participant** roles are streaming in video (active speaker only) and audio, as well as monitor the chat.
+You can stream audio in a specific channel, audible only to **Participants** and **Attendees** who have switched on the appropriate interpretation language option, as well as to other **Interpreters** of your language pair.
+
+You can monitor the chat as well.
 
 **Interpreters** belonging to the same language pair can talk privately. They can see and hear each other, and have access to a private chat, exclusive to the **Interpreters** of their language pair.
 
 The **On Air** switch signals that you are prepared to start interpreting, enabling you to stream audio.
 
 You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
-
-You will be asked to provide a username and select a langauge pair when logging in.
 
 The following UI elements and functions are available to an **Interpreter**:
 
@@ -157,9 +172,7 @@ The following UI elements and functions are available to an **Attendee (Event Re
 
 ### Attendee (Event Local)
 
-As an **Attendee (Event Local)**, you can only listen to streamed audio from available users with the **Interpreter** role, in your chosen language. This role provides no streaming or chat input.
-
-You will be asked to select an interpreting language when logging in.
+As an **Attendee (Event Local)**, you can only listen to any available **Interpreters** that translate into the language of your choice.
 
 The following UI elements and functions are available to an **Attendee (Event Local)**:
 
