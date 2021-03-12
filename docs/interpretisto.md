@@ -84,7 +84,7 @@ The following UI elements and functions are available to a **Presenter**:
 
 ### Participant
 
-As a **Participant**, you can:
+As a **Participant**, you can, by default:
 
 - Stream your video and audio;
 - Share your screen;
