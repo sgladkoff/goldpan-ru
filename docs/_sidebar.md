@@ -4,4 +4,5 @@
 * [Rigora](rigora.md)
 * [Interpretisto](interpretisto.md)
 * [Privacy Policy](privacypolicy.md)
+* [TermLode](termlode.md)
 * [Terms of Use](termsofuse.md)
