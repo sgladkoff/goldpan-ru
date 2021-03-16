@@ -17,8 +17,6 @@ In the sense of achitecture, it has the following components:
 - The **Prospector** Cloud Front End;
 - The **TermLode** **Trados** Connector DLL.
 
-# Concept and Design
-
 ## Data Model
 
 The **TermLode** data model conforms to the TBX standard (ISO 30042). There’s a Concept in the root hierarchy, and terms in various languages are descendants from the root, as shown on the figure:
