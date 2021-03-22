@@ -91,7 +91,7 @@ The drop-down menu over the **Term Filter** is used to switch the top frame betw
 
 The **TermLode** data model organizes collections of **Terms** into **Glossaries** by client, as well as by topic. **Omnitran**, a glocal search front end web interface, enables you to carry out searches for a **Term** across multiple **Glossaries** at once.
 
-![termlode_f6](termlode_f6.png)
+![termlode_add1](termlode_add_8.png)
 
 You can select just a single **Glossary** or source/target language, or any number of them at once. You can also divide one of the selected **Glossaries** into alphabetical sections by pressing the **A-Z** button:
 
