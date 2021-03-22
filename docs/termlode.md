@@ -66,7 +66,7 @@ The **List of Terms** will show a One-to-Many relationship between the source te
 
 ![termlode_f3](termlode_f3.png)
 
-The **+ New Term** button calls a dialog window where you can define a new **Concept** and populate it with **Terms**. You are not limited in the number of **Terms** or the languages you can use.
+The **+ New Term** button at the top right edge of the **Term Filter** calls a dialog window where you can define a new **Concept** and populate it with **Terms**. You are not limited in the number of **Terms** or the languages you can use.
 
 ![termlode_add1](termlode_add_7.png)
 
