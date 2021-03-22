@@ -93,7 +93,7 @@ The **TermLode** data model organizes collections of **Terms** into **Glossaries
 
 ![termlode_add1](termlode_add_8.png)
 
-You can select just a single **Glossary** or source/target language, or any number of them at once. You can also divide one of the selected **Glossaries** into alphabetical sections by pressing the **A-Z** button:
+You can select just a single **Glossary** or source/target language, or any number of them at once. You can also view one of the selected **Glossaries** as a collection of alphabetical sections by pressing the **A-Z** button:
 
 ![termlode_f7](termlode_f7.png)
 
