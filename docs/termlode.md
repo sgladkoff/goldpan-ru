@@ -99,6 +99,16 @@ You can select just a single **Glossary** or source/target language, or any numb
 
 ### Prospector
 
+**Prospector** is an automatic English terminology extraction tool with possibility to review and manually filter terminology candidates.
+
+![termlode_add1](termlode_add_9.png)
+
+You can use **Prospector** to extract **terms** from a file (the TXT, HTM/HTML, DOC/DOCX XLF/XLIFF/SDXLIFF formats are supported) or from a webpage URL. Choose either option with the File/URL switch and then either copy and paste the web page address into the text box, or click on it to call the file selection dialog. Then, select any pre-existing **glossaries** as well as processing options that you'd like to use, and press the **Extract Terminology** button.
+
+You will see the **Terminology Candidates** window, with all the extracted **terms** arranged in a list. The list has an option to search for **terms**, as well as one to save any checked **terms** in an XLS file. All the terms that appeared more than once will be, by default, checked for saving.
+
+![termlode_add1](termlode_add_10.png)
+
 ## Architecture
 
 **TermLode** has an SQL-based backen and a .NET-based frontend, which is an ideal architecture for cloud deployment:
