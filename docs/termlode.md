@@ -87,7 +87,7 @@ The drop-down menu over the **Term Filter** is used to switch the top frame betw
 ![termlode_add1](termlode_add_6.png)
 
 
-### OmnITran
+### OmniTran
 
 The **TermLode** data model organizes collections of **Terms** into **Glossaries** by client, as well as by topic. **Omnitran**, a glocal search front end web interface, enables you to carry out searches for a **Term** across multiple **Glossaries** at once.
 
