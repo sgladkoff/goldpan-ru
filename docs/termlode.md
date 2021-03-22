@@ -27,17 +27,67 @@ There's a One-to-Many relationship between a **Concept** and multiple **Terms** 
 
 ## User Experience
 
-The View and Edit modes of **TermLode** reflect this from the usability perspective. 
+### TermLode
 
-![termlode_f2](termlode_f2.png)
+As you enter the **TermLode** page, the **Terminology Database Manager** will be the first screen you see. 
 
-When you double-click a term to edit it, the Edit dialog box opens and shows a multilingual One-to-Many hierarhy - from the **Concept** down to language **Terms**.
+![termlode_add1](termlode_add_1.png)
+
+This screen displays all the **termbases** available to you, grouped by company name. Company names (1), as well as the **termbases**' own names (2) may be used to filter the list of **termbases**.
+
+By default, the **Database Manager** screen is in the **termbase** listing mode. Using the menu (3), you can switch between that and the **termbase** creation mode:
+
+![termlode_add1](termlode_add_2.png)
+
+You can simply enter the name of the new **termbase**, pick the source and target languages and press the **Create New Termbase** button to create a new empty **termbase**.
+
+Click the name of a **termbase** to enter the **Terminology Database** screen:
+
+![termlode_add1](termlode_add_3.png)
+
+The **Term Filter** takes up the top of the screen. It can use any of the variables that make up a term to populate the **List of Terms** below:
+
+- Source strings and languages;
+- Target strings and languages;
+- Business domains that terms belong belongs to;
+- Term types (acronym, concept etc.);
+- Parts of speech that are used as terms;
+- Prouducts that the terms belong to;
+- Modules;
+- DNT (Do Not Translate) status;
+- Approval status;
+- Client.
+
+The **Apply Filter** button populates a new **List of Terms** in accordance with the **Term Filter** settings.
+
+The **Term Filter** also includes the **Export** and **Export TBX** buttons that are used to create and download a XLSX or a TBX file (respectively) containing the terms from the filtered **List of Terms**.
+
+The **List of Terms** will show a One-to-Many relationship between the source term and the target terms in multiple languages if the **Term Filter**  is set up for multiple target languages. When you click a source term in the **List of Terms**, the Edit dialog box opens and shows the full multilingual One-to-Many hierarhy - from the **Concept** down to the **Terms** in various languages. You can add new **Terms** in any of the languages already present, or select a new language for adding a term.
 
 ![termlode_f3](termlode_f3.png)
 
-You can filter **Terms** by various conditions via the filter in the top of the window:
+The **+ New Term** button calls a dialog window where you can define a new **Concept** and populate it with **Terms**. You are not limited in the number of **Terms** or the languages you can use.
 
-![termlode_f4](termlode_f4.png)
+![termlode_add1](termlode_add_7.png)
+
+Selecting any number of terms with the checkboxes on the left side of the **List of Terms** and pressing the **Delete Selected** button will delete them from the **termbase**.
+
+The drop-down menu over the **Term Filter** is used to switch the top frame between the **Term Filter** and other vital functions:
+
+- The Settings menu, where you can set the name of the **termbase**, as well as its default source and target languages and domain;
+
+![termlode_add1](termlode_add_4.png)
+
+- The Import menu, where you can import terms via XLSX files (example file is provided via download link);
+
+![termlode_add1](termlode_add_5.png)
+
+- The Users menu, where you can see the list of uses that have been invited to this **termbase** in various roles, as well as invite new users. To do that, enter the first and last name of the user and their email, select the role that will be conferred to them, and press the **Invite User** button.
+
+![termlode_add1](termlode_add_6.png)
+
+
+### OmnITran
 
 The **TermLode** data model organizes collections of **Terms** into **Glossaries** by client, as well as by topic. **Omnitran**, a glocal search front end web interface, enables you to carry out searches for a **Term** across multiple **Glossaries** at once.
 
@@ -50,6 +100,8 @@ You can select some or all **Glossaries** at once:
 **Omnitran** can also divide a glossary into alphabetical sections:
 
 ![termlode_f7](termlode_f7.png)
+
+### Prospector
 
 ## Architecture
 
