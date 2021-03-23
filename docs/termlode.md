@@ -19,7 +19,7 @@ In the sense of architecture, it has the following components:
 
 ## Data Model
 
-The **TermLode** data model conforms to the TBX standard (ISO 30042). There’s a **Concept** in the root hierarchy, and terms in various languages are descendants from the root, as shown on the figure:
+The **TermLode** data model conforms to the TBX standard (ISO 30042). There’s a **Concept** in the root of the hierarchy, and **Terms** in various languages descend from the root, as shown on the figure:
 
 ![termlode_f1](termlode_f1.png)
 
@@ -58,9 +58,9 @@ The **Term Filter** takes up the top of the screen initially. With it, you can p
 
 The **Apply Filter** button refreshes the **List of Terms** in accordance with the current **Term Filter** settings.
 
-The **Term Filter** also includes the **Export** and **Export TBX** buttons that are used to create and download a XLSX or a TBX file (respectively) containing the **Terms** from the filtered **List of Terms**.
+The **Term Filter** also includes the **Export** and **Export TBX** buttons that are used to create and download a XLSX or a TBX file respectively, containing the **Terms** from the filtered **List of Terms**.
 
-The **List of Terms** will show a One-to-Many relationship between the source **Term** and the target **Terms** in multiple languages if the **Term Filter**  is set up for multiple target languages. When you click a source term in the **List of Terms**, the Edit dialog box opens and shows the full multilingual One-to-Many hierarhy - from the **Concept** down to the all its **Terms**, in various languages. You can add new synonym **Terms** in any of the languages already present, or select a new language for adding a **Term**.
+The **List of Terms** will show a One-to-Many relationship between the source **Term** and the target **Terms** in multiple languages if the **Term Filter**  is set up for multiple target languages. When you click a source term in the **List of Terms**, the Edit dialog box opens and shows the full multilingual One-to-Many hierarhy - from the **Concept** down to the all its **Terms**, in various languages. You can add new synonym **Terms** in any of the languages already present, or select a new language for adding a **Term**:
 
 ![termlode_f3](termlode_f3.png)
 
@@ -72,26 +72,25 @@ Selecting any number of **Terms** with the checkboxes on the left side of the **
 
 The drop-down menu over the **Term Filter** is used to switch the top frame between the **Term Filter** and other vital functions:
 
-- The Settings menu, where you can set the name of the **Termbase**, as well as its default source and target languages and its business domain;
+- The Settings menu, where you can set the name of the **Termbase**, as well as its default source and target languages and its business domain:
 
 ![termlode_add1](termlode_add_4.png)
 
-- The Import menu, where you can import **Terms** via XLSX files (example file is provided via download link);
+- The Import menu, where you can import **Terms** via XLSX files (example file is provided via download link):
 
 ![termlode_add1](termlode_add_5.png)
 
-- The Users menu, where you can see the list of uses that have been invited to this **Termbase** in various roles, as well as invite new users. To do that, enter the first and last name of the user and their email, select the role that will be conferred to them, and press the **Invite User** button.
+- The Users menu, where you can see the list of uses that have been invited to this **Termbase** in various roles, as well as invite new users by sending invitation links to their email addresses:
 
 ![termlode_add1](termlode_add_6.png)
 
-
 ### OmniTran
 
-The **TermLode** data model organizes collections of **Terms** into **Glossaries** by client, as well as by topic. **OmniTtran**, a global search front end web interface, enables you to carry out searches for a **Term** across multiple **Glossaries** at once.
+The **TermLode** data model organizes collections of **Terms** into **Glossaries** by client, as well as by topic. **OmniTran**, a global search front end web interface, enables you to carry out searches for a **Term** across multiple **Glossaries** at once.
 
 ![termlode_add1](termlode_add_8.png)
 
-You can select just a single **Glossary** or source/target language, or any number of them at once. You can also view one of the selected **Glossaries** as a collection of alphabetical sections by pressing the **A-Z** button:
+You can select just a single **Glossary** or source/target language, or any number of them at once. You can also view selected **Glossaries**, one at a time, as collections of alphabetical sections, by pressing the **A-Z** button:
 
 ![termlode_f7](termlode_f7.png)
 
