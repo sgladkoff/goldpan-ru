@@ -9,7 +9,7 @@ It is comprised of the following applications:
 - The **Prospector** Terminology extractor;
 - The **TermLode** Trados connector.
 
-In the sense of achitecture, it has the following components:
+In the sense of architecture, it has the following components:
 
 - The **TermLode** termbank;
 - The **TermLode** Cloud Front End;
@@ -19,7 +19,7 @@ In the sense of achitecture, it has the following components:
 
 ## Data Model
 
-The **TermLode** data model conforms to the TBX standard (ISO 30042). There’s a Concept in the root hierarchy, and terms in various languages are descendants from the root, as shown on the figure:
+The **TermLode** data model conforms to the TBX standard (ISO 30042). There’s a **Concept** in the root hierarchy, and terms in various languages are descendants from the root, as shown on the figure:
 
 ![termlode_f1](termlode_f1.png)
 
@@ -33,23 +33,21 @@ As you enter the **TermLode** page, the **Terminology Database Manager** will be
 
 ![termlode_add1](termlode_add_1.png)
 
-This screen displays all the **termbases** available to you, grouped by company name. Company names (1), as well as the **termbases**' own names (2) may be used to filter the list of **termbases**.
-
-By default, the **Database Manager** screen is in the **termbase** listing mode. Using the menu (3), you can switch between that and the **termbase** creation mode:
+This screen displays the list of all the **Termbases** available to you, grouped by company name. Company names, as well as the **Termbases**' own names, may be used to filter this list. Using the drop-down menu at the top of the frame, you can switch between it and the **Termbase** creation screen:
 
 ![termlode_add1](termlode_add_2.png)
 
-You can simply enter the name of the new **termbase**, pick the source and target languages and press the **Create New Termbase** button to create a new empty **termbase**.
+You can simply enter the name of the new **Termbase**, pick the default source and target languages and press the **Create New Termbase** button. A new, empty **Termbase** will be created.
 
-Click the name of a **termbase** to enter the **Terminology Database** screen:
+Click the name of a **Termbase** to enter the **Terminology Database** screen:
 
 ![termlode_add1](termlode_add_3.png)
 
-The **Term Filter** takes up the top of the screen. It can use any of the variables that make up a term to populate the **List of Terms** below:
+The **Term Filter** takes up the top of the screen initially. With it, you can populate the **List of Terms** below, using any of the variables that make up a **Term** to filter the current **Termbase**:
 
-- Source strings and languages;
-- Target strings and languages;
-- Business domains that terms belong belongs to;
+- Source text and language;
+- Target text and language;
+- Business domains that terms belong to;
 - Term types (acronym, concept etc.);
 - Parts of speech that are used as terms;
 - Prouducts that the terms belong to;
@@ -58,11 +56,11 @@ The **Term Filter** takes up the top of the screen. It can use any of the variab
 - Approval status;
 - Client.
 
-The **Apply Filter** button populates a new **List of Terms** in accordance with the **Term Filter** settings.
+The **Apply Filter** button refreshes the **List of Terms** in accordance with the current **Term Filter** settings.
 
-The **Term Filter** also includes the **Export** and **Export TBX** buttons that are used to create and download a XLSX or a TBX file (respectively) containing the terms from the filtered **List of Terms**.
+The **Term Filter** also includes the **Export** and **Export TBX** buttons that are used to create and download a XLSX or a TBX file (respectively) containing the **Terms** from the filtered **List of Terms**.
 
-The **List of Terms** will show a One-to-Many relationship between the source term and the target terms in multiple languages if the **Term Filter**  is set up for multiple target languages. When you click a source term in the **List of Terms**, the Edit dialog box opens and shows the full multilingual One-to-Many hierarhy - from the **Concept** down to the **Terms** in various languages. You can add new **Terms** in any of the languages already present, or select a new language for adding a term.
+The **List of Terms** will show a One-to-Many relationship between the source **Term** and the target **Terms** in multiple languages if the **Term Filter**  is set up for multiple target languages. When you click a source term in the **List of Terms**, the Edit dialog box opens and shows the full multilingual One-to-Many hierarhy - from the **Concept** down to the all its **Terms**, in various languages. You can add new synonym **Terms** in any of the languages already present, or select a new language for adding a **Term**.
 
 ![termlode_f3](termlode_f3.png)
 
@@ -70,26 +68,26 @@ The **+ New Term** button at the top right edge of the **Term Filter** calls a d
 
 ![termlode_add1](termlode_add_7.png)
 
-Selecting any number of terms with the checkboxes on the left side of the **List of Terms** and pressing the **Delete Selected** button will delete them from the **termbase**.
+Selecting any number of **Terms** with the checkboxes on the left side of the **List of Terms** and pressing the **Delete Selected** button will delete them from the **Termbase**.
 
 The drop-down menu over the **Term Filter** is used to switch the top frame between the **Term Filter** and other vital functions:
 
-- The Settings menu, where you can set the name of the **termbase**, as well as its default source and target languages and domain;
+- The Settings menu, where you can set the name of the **Termbase**, as well as its default source and target languages and its business domain;
 
 ![termlode_add1](termlode_add_4.png)
 
-- The Import menu, where you can import terms via XLSX files (example file is provided via download link);
+- The Import menu, where you can import **Terms** via XLSX files (example file is provided via download link);
 
 ![termlode_add1](termlode_add_5.png)
 
-- The Users menu, where you can see the list of uses that have been invited to this **termbase** in various roles, as well as invite new users. To do that, enter the first and last name of the user and their email, select the role that will be conferred to them, and press the **Invite User** button.
+- The Users menu, where you can see the list of uses that have been invited to this **Termbase** in various roles, as well as invite new users. To do that, enter the first and last name of the user and their email, select the role that will be conferred to them, and press the **Invite User** button.
 
 ![termlode_add1](termlode_add_6.png)
 
 
 ### OmniTran
 
-The **TermLode** data model organizes collections of **Terms** into **Glossaries** by client, as well as by topic. **Omnitran**, a glocal search front end web interface, enables you to carry out searches for a **Term** across multiple **Glossaries** at once.
+The **TermLode** data model organizes collections of **Terms** into **Glossaries** by client, as well as by topic. **OmniTtran**, a global search front end web interface, enables you to carry out searches for a **Term** across multiple **Glossaries** at once.
 
 ![termlode_add1](termlode_add_8.png)
 
@@ -103,9 +101,9 @@ You can select just a single **Glossary** or source/target language, or any numb
 
 ![termlode_add1](termlode_add_9.png)
 
-You can use **Prospector** to extract **terms** from a file (the TXT, HTM/HTML, DOC/DOCX XLF/XLIFF/SDXLIFF formats are supported) or from a webpage URL. Choose either option with the File/URL switch and then either copy and paste the web page address into the text box, or click on it to call the file selection dialog. Then, select any pre-existing **glossaries** as well as processing options that you'd like to use, and press the **Extract Terminology** button.
+You can use **Prospector** to extract **Terms** from a file (the TXT, HTM/HTML, DOC/DOCX XLF/XLIFF/SDXLIFF formats are supported) or from a webpage URL. Choose either option with the File/URL switch and then either copy and paste the web page address into the text box, or click on it to call the file selection dialog. Then, select any pre-existing **Glossaries** as well as processing options that you'd like to use, and press the **Extract Terminology** button.
 
-You will see the **Terminology Candidates** window, with all the extracted **terms** arranged in a list. The list has an option to search for **terms**, as well as one to save any checked **terms** in an XLS file. All the terms that appeared more than once will be, by default, checked for saving.
+You will see the **Terminology Candidates** window, with all the extracted **Terms** arranged in a list. The list has an option to search for **Terms**, as well as one to save any checked **Terms** in an XLS file. All the terms that appeared more than once will be, by default, checked for saving.
 
 ![termlode_add1](termlode_add_10.png)
 
