@@ -1,4 +1,4 @@
-# Goldpan — бесплатный редактор и конвертер файлов форматов TMX и TBX с расширенными возможностями! @@@
+# Goldpan — бесплатный редактор и конвертер файлов TMX и TBX
 
 We are proud and happy to share this tool with the industry, free of charge.
 You do NOT have to pay anything for Goldpan - unless you want to use a couple of premium features needed only for large companies and serious projects. The core features of Goldpan are - *and will stay* - completely free.
