@@ -1,4 +1,4 @@
-* [Overview of Language Cloud](README.md)
+* [Обзор платформы Language Cloud](README.md)
 * [Goldpan](goldpan.md)
 * [Memose](memose.md)
 * [Rigora](rigora.md)
