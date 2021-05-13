@@ -1,21 +1,21 @@
-# Logrus Global Language Cloud - обзор платформы
+# Logrus Global Localization Cloud — обзор платформы
 
-Logrus Global Localization Cloud is a cloud-based universe of tools and services created to support translation and localization workflow in the era of diverse, both cloud-based and desktop toolset where information worker has to operate with often incompatible tools and formats.
+Logrus Global Localization Cloud — это облачная платформа с богатым набором  программ и сервисов для внедрения новейших рабочих процессов в отрасли технического перевода и локализации. Этот инструментарий также позволяет решить проблему сопряжения зачастую несовместимых программ и форматов данных в наступившую эпоху тотальной цифровизации с ее разнообразием программных средств и смешанным облачно-настольным окружением.
 
-## Why do I need your cloud and what is it for?
+## Кому и зачем пригодится это облако?
 
-The tools of Logrus Global Localization Cloud will help you to simplify your work and deliver interoperability right at your fingertips. They also feature some innovative technologies.
+Платформа Logrus Global Localization Cloud упрощает повседневную работу и изящно решает проблему совместимости программ и данных. Платформа построена на новейших, передовых технологиях обработки данных и уникальных алгоритмах собственной разработки.
 
-With the tools of Logrus Global Language cloud you can:
+Платформа Logrus Global Localization Cloud:
 
-* work with nearly every tool and any ecosystem
-* use features that are not yet implemented in the tools that you are using
-* run simpler workflows
-* do things that previously required very expensive solutions
+* позволяет применить практически любое решение из самых разных программных экосистем
+* предоставляет возможности, еще не реализованные на существующих платформах
+* упрощает рабочие процессы
+* делает доступным то, за что раньше пришлось бы заплатить очень много денег
 
-The Logrus Global Language Cloud includes the following tools:
+Платформа Logrus Global Localization Cloud включает следующие инструменты:
 
-* [Goldpan](goldpan.md)       - a free, simple to use yet powerful TMX/TBX Editor
-* [Memose](memose.md)         - a cloud-based, infinitely scalable and ultrafast Translation Memory and CAT tool (editor) with access to more than 32 MT engines.
-* [Rigora](rigora.md)   - THE most powerful technical and linguistic quality assurance (QA) tool to support localization of software and other content into any language.
-* [Interpretisto](interpretisto.md)   - the video conferencing and remote simultaneous interpreting platform that lets you conduct conference calls and host online and onsite events with simultaneous interpretation.
+* [Goldpan](goldpan.md)       — бесплатный, простой и мощный редактор и конвертер файлов TMX и TBX
+* [Memose](memose.md)         — облачный, неограниченно масштабируемый и при этом очень быстрый сервер памяти переводов со встроенным редактором (CAT) и доступом к более чем 32 системам машинного перевода.
+* [Rigora](rigora.md)   — один из самых мощных инструментов проверки качества перевода (LQA) для локализации программного обеспечения и другого контента на любой язык.
+* [Interpretisto](interpretisto.md)   — платформа видеоконференций и удаленного синхронного перевода, позволяющая проводить совещания в режиме онлайн, а также обеспечивать синхронный перевод на конференциях в виртуальном и реальном пространстве.
