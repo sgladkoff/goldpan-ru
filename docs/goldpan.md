@@ -1,83 +1,93 @@
 # Goldpan — бесплатный редактор и конвертер файлов TMX и TBX
 
-We are proud and happy to share this tool with the industry, free of charge.
-You do NOT have to pay anything for Goldpan - unless you want to use a couple of premium features needed only for large companies and serious projects. The core features of Goldpan are - *and will stay* - completely free.
+С большим удовольствием мы предоставляем этот полезный инструмент всем переводчикам бесплатно.
+Профессиональная версия программы отличается тем, что ряд ключевых функций, доступных в бесплатной версии, оптимизированы для нужд крупных компаний и пакетной обработки данных. Этот пакет распространяется по платной подписке. Однако все основные функции Goldpan совершенно бесплатны и таковыми останутся.
 
-The current version of Goldpan is 3.6.
+Текущая версия Goldpan: 3.6.1.
 
-## Why do I need Goldpan and what is it for?
+## Для чего нужна программа Goldpan?
 
-Goldpan has been created for handling bilingual translation data in order to preserve the linguistic knowledge that you accumulate via the bilingual translations in your possession. With Goldpan, you can:
+Программа Goldpan была создана для обработки двуязычных файлов, используемых в процессе перевода любого контента в CAT-системах. Целью этой обработки является сохранение и повторное использование лингвистической информации, которая накапливается у переводчиков по мере их работы. Программа Goldpan позволяет:
 
-- convert various bilingual files to the TMX format to keep them in order locally
+- преобразовывать различные двуязычные файлы в универсальный формат TMX для сохранения в виде памяти переводов;
 
-- work with your Translation Memory (TM) files and mine terminology from them, correct translations
+- обрабатывать имеющиеся файлы памяти переводов (ТМ), редактировать их, извлекать терминологию;
 
-- clean unwanted tags from your files in preparation for an upload into your CAT tool or TM server
+- удалять ненужную служебную разметку (внутренние теги) из файлов перед их загрузкой в CAT-систему или на сервер памяти переводов;
 
-- prepare TMs for training your custom MT engine
+- готовить массивы памяти переводов для обучения систем машинного перевода.
 
-## How do I handle my TM library?
+## Что можно делать с накопленной библиотекой памяти переводов?
 
-Of course, you can simply prepare and clean up your TM files for storage - locally, or on your company's file server. But that method is obsolete now!
+Файлы памяти переводов можно просто подготовить и очистить для дальнейшего хранения на локальном компьютере или на файловом сервере организации. Но такой способ организации лингвистических активов давно устарел — он не позволяет эффективно повторно использовать накопленные переводы.
 
-The smart way is to store your clean TMs in a TM Cloud Server as a central source of translation knowledge for yourself and/or your organization.
+Лучше всего хранить очищенные массивы памяти переводов на облачном сервере, где эти разрозненные файлы превращаются в единый источник переводов для отдельного пользователя или для целой организации.
 
-Logrus Global has a suitable solution for this: **Memose**. With **Memose**, you can centralize the storage and management of TMs, perform searches across the entirety of stored TM data at once, prepare project memory for the CAT tool of your choosing, and even translate and edit `.xliff` files! If you want to try Memose, send an email to marcom @ logrusglobal.com.
+Компания Logrus Global предлагает соответствующее решение: **Memose**. Облачная платформа **Memose** позволяет:
 
-## Supported Operating Systems
+- упорядочить и централизовать хранение массивов памяти переводов и управление ими;
 
-Currently, there is only a Windows 64-bit version of Goldpan. Windows 32, OS X or Linux compatibility is not currently planned.
+- выполнять поиск фразх и предложений (поиск по конкордансу) сразу по всем имеющимся массивам памяти переводов;
 
-Custom features may be developed for companies willing to finance their development. Otherwise, we will only implement what we feel we need to implement at our own expense. Donations are always welcome.
+- собирать проектные памяти переводов для подключения к любым CAT-системам;
 
-## Installing Goldpan
+- и даже переводить и редактировать непосредственно файлы формата XLIFF! 
 
-In order to install Goldpan, go to the Logrus Global Localization Cloud website (https://cloud.logrusglobal.com/) and choose Goldpan. Then click **Try it**. You will be taken to the Logrus Global Localization Cloud Dashboard.
+Чтобы больше узнать о платформе Memose, напишите нам по адресу: marcom @ logrusglobal.com.
 
-Click the **Free Download** link on the Goldpan tile.
+## Поддерживаемые операционные системы
 
-The latest MSI distributive file will be downloaded. Install it on your system and voila!
+Поддерживаетя только Windows x64. Не поддерживаются: Windows x32, OS X, Linux.
 
-## PRO Version
+Для организаций по запросу возможна доработка имеющихся функций пролграммы и разработка новых за соответствующую плату. Запросы частных лиц принимаются в разработку по нашему усмотрению и за наш счет. Пожертвования на улучшение программы всегда приветствуются.
 
-If your Logrus Global Cloud account is authorized for the **PRO Version** of Goldpan, press the **PRO Version** button in the Home tab (or the Help tab) to call a log-in dialog window for entering your login and password. Following that, the **PRO Version** functions will become available to you.
+## Установка программы Goldpan
 
-Currently, the following functons are restricted to the **PRO Version**:
+Для установки программы Goldpan зайдите на сайт Logrus Global Localization Cloud (https://cloud.logrusglobal.com/) и выберите раздел Goldpan. Наждмите кнопку **Try it**. Вы будете перенаправлены в личный кабинет пользователя Logrus Global Localization Cloud, где можно скачать текущую версию программы.
 
-- the **Clean tags in files** button in the Batch Tools tab (see below in the **Clearing tags**)
+Нажмите ссылку **Free Download** на карточке программы Goldpan.
 
-## Creating, opening and editing TMX and TBX files
+Будет запущена загрузка текущего дистрибутива в виде файла формата MSI. По завершении загрузки запустите этот файл и завершите установку.
 
-Goldpan is an easy-to-use - but powerful - tool for creating, opening and editing multilingual translation memory (TMX) and terminology exchange (TBX) files with up to nine parallel language pairs.
+## Версия PRO
 
-Despite its simple visual interface, Goldpan has a lot of features. Some of them are not so obvious, so we'll explain them here is more detail.
+Если ваша учетная запись на платформе Logrus Global Localization Cloud авторизована для использования версии Goldpan **PRO**, нажмите кнопку **PRO Version** на вкладке Home или на вкладке Help меню программы и введите имя и пароль вашей учетной записи. После этого будут активированы функции **PRO Version**.
 
-### Supported formats
+В настоящее время следующие функции доступны только в версии **PRO**:
 
-Goldpan supports differing sets of file formats for importing and exporting data. Some formats can be read, but not written in.
+- пакетная очитстка тегов в файлах (кнопка **Clean tags in files** на вкладке Batch Tools — см. ниже раздел **Очистка тегов**).
 
-### Importing
+## Создание, открытие, редактирование файлов TMX и TBX
 
-With Goldpan, you can import translation resources from the **SDLTM**, **SDLXLIFF**, **XLIFF**, **TMX** and **TBX** file formats.
+Программа Goldpan является простым, но мощным инструментом для создания и редактирования файлов многоязычной памяти переводов (TMX) и файлов глоссариев (TBX) с не более чем девятью языками одновременно.
 
-To import translation resources from a file, open the Import/Export tab and press the Import File button. In the dialog window, select a file format from the drop-down menu, then find and select the file. This operation can only import resources from a single file per use. If necessary, employ this operation multiple times to import resources from several files.
+В простом интерфейсе пользователя реализовано множество функций. Не все из них очевидны — такие функции описаны в этой справке.
 
-### Exporting
+### Поддерживаемые форматы файлов
 
-You can select a subset of resources for exporting into **TMX**, **XLIFF**, **TBX** or **XLSX** files.
+Программа Goldpan поддерживает разные форматы файлов для импорта данных в программу и для экспорта данных из нее. Некоторые из этих форматов файлов только читаются (импортируются), но не экспортируются.
 
-Goldpan will only export the segments present in its clipboard, which is populated by means of the **Move to Memory** and **Copy to Memory** buttons on the **Import/Export** tab. The **Move to Memory** operation removes any highlighted segments from the editor, but the **Copy to Memory** operation leaves the segments in the editor. Segments can be highlighted through commonly used operations including clicking while holding down SHIFT or CTRL, or clicking-and-dragging. Only entire segments will be moved or copied. If a segment is visible as being partially highlighted, the entire segment will still be moved or copied. An export operation can be started with the Export button, which is located on the border between the editor area and the memory area. Alternatively, one of the buttons in the Export group on the Import/Export tab can be used. (An appropriate file format will be selected by default.)
+### Импорт
 
-### Color highlighting and filtering
+В программу Goldpan можно импортировать файлы переводческих ресурсов следующих форматов: **SDLTM**, **SDLXLIFF**, **XLIFF**, **TMX**, **TBX**.
 
-In order to mark or filter out resources in the course of handling translation-memory data, you can mark strings with a colored highlight.
+Чтобы импортировать в программу переводческие ресурсы из какого-нибудь файла, на вкладке Import/Export нажмите кнопку Import File. В диалоговом окне импорта выберите нужный формат в раскрывающемся списке, затем найдите и выделите требуемый файл. Импорт возможен только из одного файла за раз. Для импорта нескольких файлов повторите процедуру для каждого файла отдельно.
 
-Color marking is performed using the **Color** drop-down list in the **Markup** group of the **Home** tab. When a color is selected from this list, all highlighted segments become marked with the selected color. A segment can only be marked with one color at a time and will always be marked in its entirety. (For convenience, the TU# field remains unmarked.) The **Clear Markup** option, which is also shown in the drop-down list, can be selected to clear any highlighted marked segments.
+### Экспорт
 
-Marking-based filtering is performed using the **Color** drop-down list from the **Marked Up** group of the **Filters and Checks** tab. If any colors are selected from this list (multiple colors can be selected simultaneously), the editor will not display any segments not marked with these colors.
+Чтобы экспортировать данные из программы, нужно выбрать соответствующие строки, а затем экспортировать их в виде файла формата **TMX**, **XLIFF**, **TBX** или **XLSX**.
 
-### Filtering
+Экспорт из программы Goldpan выполняется только из специального буфера обмена. Для переноса данных в этот буфер служат кнопки **Move to Memory** (перемещение) и **Copy to Memory** (копирование) на вкладке **Import/Export**. Операция **Move to Memory** удаляет выделенные сегменты из окна редактирования при их переносе в буфер. Команда **Copy to Memory** сохраняет исходные сегменты на их месте. Выделить нужные сегменты можно стандартным образом —  щелчком при нажатой клавише SHIFT или CTRL, либо путем перетаскивания. Сегменты перемещаются или копируются только целиком. Если сегмент выделен частично, он все равно будет перемещен или скопирован целиком. Для запуска процесса экспорта служит кнопка Export, расположенная на границе между панелью редактора и панелью буфера обмена. Либо можно воспользоваться кнопками в группе Export на вкладке Import/Export. (Соответствующий формат файла будет выбран по умполчанию.)
+
+### Выделение цветом и фильтрация
+
+Строки переводческих ресурсов можно пометить цветом или применить к ним фильтры. Для этого служит выделение цветом.
+
+Выделение цветом выполняется с помощью раскрывающегося списка **Color** в группе **Markup** на вкладке **Home**. Если в этом списке выбран какой-нибудь цвет, все выбранные сегменты будут подсвечены этим цветом. Допускается выделение сегмента только одним цветом одновременно, и только сегмента целиком. (Для удобства поле TU# не выделяется.) Для отмены выделения сегментов цветом в списке имеется опция **Clear Markup**.
+
+Фильтрация на базе выделения цветом выполнятся с помощью раскрывающегося списка **Color** в группе **Marked Up** на вкладке **Filters and Checks**. Если какие-либо цвета выбраны в этом списке (допускается множественный выбор), в окне редактора не будут отображаться сегменты, которые не помечены одним из этих цветов.
+
+### Фильтрация
 
 You can filter your translation resources by various criteria, such as segment status and presence of particular text fragments within cells.
 
