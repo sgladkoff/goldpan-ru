@@ -1,59 +1,59 @@
-# Interpretisto: the simultaneous interpreting platform
+# Interpretisto: платформа синхронного перевода
 
-**Interpretisto** is a platform that enables you to conduct conference calls and host online and onsite events with simultaneous interpretation.
+**Interpretisto** — это программная платформа видеоконференцсвязи и удаленного синхронного перевода для проведения телеконференций и массовых онлайн- и выездных мероприятий с синхронным переводом.
 
-We offer enhanced security and confidentiality, without reliance on public RSI services.
+Платформа предлагает повышенную безопасность и конфиденциальность, так как не использует никакие публичные или сторонние сервисы удаленного синхронного перевода (RSI).
 
-- Two-in-one communication service: Video conferencing + remote simultaneous interpreting.
-- Security: No public RSI service is used. The platform is built on its own RSI server and backend, and can be installed on a single machine inside the client's protected network. No audio/video data goes out to a public server.
-- Ease of use: As a conference attendee in any posible role, all you need is a web browser. There's no need to install any desktop or mobile software. The browser-based service offers a highly adaptive interface that meets the needs of various user roles.
-- Communication features: Links to **Interpretisto** Meeting Rooms can be sent out to participants via e-mail, with the date and time of the scheduled event. Group chat, screen sharing and interpreting language selection features are available.
-- Interpreting: The platform provides multichannel audio streaming to support simultaneous translation into several languages in parallel. Interpreters have their own standard controls. They are able to see each other, communicate, pass controls, be on air at different times, and see the public event chat.
+- Сервис коммуникации «два в одном»: видеоконференцсвязь + Удаленный синхронный перевод (SRI, VRI).
+- Безопасность: никакие публичные сервисы RSI не применяются. Платформа построена на RSI-сервере и его обвязке собственной разработки и может быть установлена на одном компьютере в защищенной сети предприятия заказчика. Аудио- и видеоданные не отправляются ни на один общедоступный сервер.
+- Простота использования: участнику конференции с любой ролью нужен только веб-браузер. Не требуется установка никаких программ для настольного компьютера или мобильных приложений для смартфона. В браузере реализован весьма гибкий интерфейс пользователя, одинаково удобный для пользователей с самыми разными ролями.
+- Функции связи: участникам конференции можно по электронной почте отправлять ссылки на виртуальные конференц-залы **Interpretisto** с датой и временем запланированного мероприятия. Участникам доступны общий чат, демонстрация экрана и выбор языка синхронного перевода.
+- Синхронный перевод: платформа обеспечивает многоканальную потоковую передачу звука для поддержки синхронного перевода на несколько языков параллельно. Виртуальное рабочее место синхрониста оснащено стандартными элементами управления. Переводчики видят и слышат все, что происходит на конференции, включая общение участников в чате вебинара или конференции.
 
-## Conference Roles
+## Роли участников конференции
 
-**Interpretisto** enables its users to participate in conferences in a variety of roles. Links and join codes are generated for every applicable role in a conference.
+**Interpretisto** поддерживает разделение ролей участников конференции. Для каждой роли автоматически создаются отдельные ссылки и коды для подключения к конференции.
 
-- Presenter: the role for a presenter during a webinar-style conference ([Functions](http://logrus.co/#/interpretisto?id=presenter));
-- Participant: the role for an equal participant during a meeting-style conference ([Functions](http://logrus.co/#/interpretisto?id=participant));
-- Interpreter: the role of an interpreter, essential for any multilingual conference ([Functions](http://logrus.co/#/interpretisto?id=interpreter));
-- Attendee (Event Remote): the role of an attendee during a webinar-style conference ([Functions](http://logrus.co/#/interpretisto?id=attendee-event-local));
-- Attendee (Event Local): the role of an attendee during a physical foreign-language conference ([Functions](http://logrus.co/#/interpretisto?id=attendee-event-remote));
+- Докладчик: роль выступающего на конференциях типа вебинара ([Functions](http://logrus.co/#/interpretisto?id=presenter));
+- Участник: роль полноправного участника на конференциях типа совещаний ([Functions](http://logrus.co/#/interpretisto?id=participant));
+- Переводчик: роль устного переводчика, необходимого на любой международной конференции ([Functions](http://logrus.co/#/interpretisto?id=interpreter));
+- Слушатель (онлайн-мероприятие): роль для участников онлайн-конференций типа вебинара ([Functions](http://logrus.co/#/interpretisto?id=attendee-event-local));
+- Слушатель (на месте мероприятия): роль для участников международных конференций с физическим присутствием на мероприятии ([Functions](http://logrus.co/#/interpretisto?id=attendee-event-remote));
 
-## Technical Requirements
+## Технические требоания
 
-The various user roles in **Interpretisto** have differing sets of requirements to your connection speed,  software and hardware:
+В **Interpretisto** разные роли пользователей отличаются требованиями к скорости канала подключения и программному и аппаратному оснащению рабочего места:
 
-| Role | Up/down connection speed | Web Browser | Camera | Microphone | Headset | Device Type |
+| Роль | Исх/входящая скорость подключения | Веб-браузер | Видеокамера | Микрофон | Гарнитура | Тип устройства |
 | --------------- | -------------------- | ------------------------- | ----------- | ----------- | ----------- | ------------------ |
-| Participant | 5 mbps or higher | Firefox 60+ or Chrome 74+ | Optional | Required | Required | Desktop, laptop or smartphone |
-| Remote Attendee | 5 mbps or higher | Firefox 60+ or Chrome 74+ | Not required | Not required | Required | Desktop, laptop or smartphone |
-| Presenter | 5 mbps or higher | Firefox 60+ or Chrome 74+ | Required | Required | Not required | Desktop or laptop |
-| Interpreter | 10 mbps or higher\* | Firefox 60+ or Chrome 74+ | Optional | Required | Required | Desktop or laptop |
-| Local Attendee | 5 mbps or higher | Firefox 60+ or Chrome 74+ | Not required | Not required | Required | Smartphone |
+| Участник | 5 Мбит/с или выше | Firefox 60+ или Chrome 74+ | опция | требуется | требуется | ПК, ноутбук или смартфон |
+| Слушатель (удаленный) | 5 Мбит/с или выше | Firefox 60+ или Chrome 74+ | не нужно | не нужно | требуется | ПК, ноутбук или смартфон |
+| Докладчик | 5 Мбит/с или выше | Firefox 60+ или Chrome 74+ | требуется | требуется | не нужно | ПК или ноутбук |
+| Переводчик | 10 Мбит/с или выше\* | Firefox 60+ или Chrome 74+ | опция | требуется | требуется | ПК или ноутбук |
+| Слушатель (в зале) | 5 Мбит/с или выше | Firefox 60+ или Chrome 74+ | не требуется | не требуется | Required | смартфон |
 
-\* *cable connection desired for greater stability*
+\* *проводное подключение крайне желательно для более стабильной связи*
 
-Connect your headset and camera and enable your browser to access them prior to entering **Interpretisto**.  Choose an environment without background noise, and with good lighting if you're using a camera to stream video. Remember to keep your microphone muted until it's your turn to speak.
+Подключите свои гарнитуру и видеокамеру и разрешите браузеру доступ к этим устройствам до входа в систему **Interpretisto**.  Рекомендуется расположиться в тихом месте без фоновых шумов, с хорошим освещением в случае использования видеокамеры для стрима. Всегда выключайте микрофон, когда вы не говорите сами.
 
-## Connecting to Interpretisto
+## Подключение к Interpretisto
 
-1. Enter the Interpretisto link you've been provided in your web browser to access your conference.
-2. Alternatively, visit http://interpretisto.logrusglobal.com to enter your conference code and press the **Join Conference** button.
+1. Для подключения к конференции откройте в браузере присланную вам ссылку Interpretisto.
+2. Либо на сайте http://interpretisto.logrusglobal.com введите код конференции и нажмите кнопку **Join Conference**.
 
 ![interpretisto_enter](interpretisto_enter.png)
 
-If you have the **Presenter** or **Attendee (Event Local)** role, you will enter the conference immediately.
+Участники с ролью **Докладчик (Presenter)** или **Слушатель (в зале) (Attendee (Event Local))** смогут войти в конференцию немедленно.
 
-However, if you have the **Participant**, **Interpreter** or **Attendee (Event Remote)** role, you will arrive at the conference connection screen:
+Участникам с ролью **Участник (Participant)**, **Переводчик (Interpreter)** или **Слушатель (удаленный) (Attendee (Event Remote))** предалагается окно подключения к конференции:
 
 ![interpretisto_enter](interpretisto_entry.png)
 
-Here, you can access the settings for various conference functions that are available to your role, such as video and audio streaming (1, 2), your camera view (3), additional materials (4) and the options menu (5) prior to connecting. 
+Здесь перед подключением можно настроить различные параматеры и фукнции конференции, доступные для данной роли, такие как стриминг аудио и видео (1, 2), вид камеры (3), дополнительные материалы (4) и меню опций (5). 
 
-If you have the **Participant** or **Interpreter** role, you will need to enter your username (6) before connecting. As an **Interpreter**, you will also need to pick a language pair.
+Участники с ролью **Участник (Participant)** или **Переводчик (Interpreter)** должны ввести свое имя (6) перед подключением. А переводчик должен также выбрать языковую пару.
 
-When you are done, press the **Connect** button (7) to enter the conference.
+По завершении настроки нажмите кнопку **Connect** (7) для входа в конференцию.
 
 ## Available Functions
 
