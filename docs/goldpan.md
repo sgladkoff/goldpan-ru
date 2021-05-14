@@ -27,7 +27,7 @@
 
 - упорядочить и централизовать хранение массивов памяти переводов и управление ими;
 
-- выполнять поиск фразх и предложений (поиск по конкордансу) сразу по всем имеющимся массивам памяти переводов;
+- выполнять поиск фраз и предложений (поиск по конкордансу) сразу по всем имеющимся массивам памяти переводов;
 
 - собирать проектные памяти переводов для подключения к любым CAT-системам;
 
@@ -37,13 +37,13 @@
 
 ## Поддерживаемые операционные системы
 
-Поддерживаетя только Windows x64. Не поддерживаются: Windows x32, OS X, Linux.
+Поддерживается только Windows x64. Не поддерживаются: Windows x32, OS X, Linux.
 
-Для организаций по запросу возможна доработка имеющихся функций пролграммы и разработка новых за соответствующую плату. Запросы частных лиц принимаются в разработку по нашему усмотрению и за наш счет. Пожертвования на улучшение программы всегда приветствуются.
+Для организаций по запросу возможна доработка имеющихся функций программы и разработка новых за соответствующую плату. Запросы частных лиц принимаются в разработку по нашему усмотрению и за наш счет. Пожертвования на улучшение программы всегда приветствуются.
 
 ## Установка программы Goldpan
 
-Для установки программы Goldpan зайдите на сайт Logrus Global Localization Cloud (https://cloud.logrusglobal.com/) и выберите раздел Goldpan. Наждмите кнопку **Try it**. Вы будете перенаправлены в личный кабинет пользователя Logrus Global Localization Cloud, где можно скачать текущую версию программы.
+Для установки программы Goldpan зайдите на сайт Logrus Global Localization Cloud (https://cloud.logrusglobal.com/) и выберите раздел Goldpan. Нажмите кнопку **Try it**. Вы будете перенаправлены в личный кабинет пользователя Logrus Global Localization Cloud, где можно скачать текущую версию программы.
 
 Нажмите ссылку **Free Download** на карточке программы Goldpan.
 
@@ -55,7 +55,7 @@
 
 В настоящее время следующие функции доступны только в версии **PRO**:
 
-- пакетная очитстка тегов в файлах (кнопка **Clean tags in files** на вкладке Batch Tools — см. ниже раздел **Очистка тегов**).
+- пакетная очистка тегов в файлах (кнопка **Clean tags in files** на вкладке Batch Tools — см. ниже раздел **Очистка тегов**).
 
 ## Создание, открытие, редактирование файлов TMX и TBX
 
@@ -77,7 +77,7 @@
 
 Чтобы экспортировать данные из программы, нужно выбрать соответствующие строки, а затем экспортировать их в виде файла формата **TMX**, **XLIFF**, **TBX** или **XLSX**.
 
-Экспорт из программы Goldpan выполняется только из специального буфера обмена. Для переноса данных в этот буфер служат кнопки **Move to Memory** (перемещение) и **Copy to Memory** (копирование) на вкладке **Import/Export**. Операция **Move to Memory** удаляет выделенные сегменты из окна редактирования при их переносе в буфер. Команда **Copy to Memory** сохраняет исходные сегменты на их месте. Выделить нужные сегменты можно стандартным образом —  щелчком при нажатой клавише SHIFT или CTRL, либо путем перетаскивания. Сегменты перемещаются или копируются только целиком. Если сегмент выделен частично, он все равно будет перемещен или скопирован целиком. Для запуска процесса экспорта служит кнопка Export, расположенная на границе между панелью редактора и панелью буфера обмена. Либо можно воспользоваться кнопками в группе Export на вкладке Import/Export. (Соответствующий формат файла будет выбран по умполчанию.)
+Экспорт из программы Goldpan выполняется только из специального буфера обмена. Для переноса данных в этот буфер служат кнопки **Move to Memory** (перемещение) и **Copy to Memory** (копирование) на вкладке **Import/Export**. Операция **Move to Memory** удаляет выделенные сегменты из окна редактирования при их переносе в буфер. Команда **Copy to Memory** сохраняет исходные сегменты на их месте. Выделить нужные сегменты можно стандартным образом —  щелчком при нажатой клавише SHIFT или CTRL, либо путем перетаскивания. Сегменты перемещаются или копируются только целиком. Если сегмент выделен частично, он все равно будет перемещен или скопирован целиком. Для запуска процесса экспорта служит кнопка Export, расположенная на границе между панелью редактора и панелью буфера обмена. Либо можно воспользоваться кнопками в группе Export на вкладке Import/Export. (Соответствующий формат файла будет выбран по умолчанию.)
 
 ### Выделение цветом и фильтрация
 
@@ -89,118 +89,118 @@
 
 ### Фильтрация
 
-You can filter your translation resources by various criteria, such as segment status and presence of particular text fragments within cells.
+Переводческие ресурсы можно фильтровать по различным признакам, таким как статус сегмента или наличие определенных фрагментов текста в ячейках.
 
-The **Filters and Checks** tab elements are used for this purpose:
+Вкладка **Filters and Checks** содержит следующие кнопки и группы кнопок:
 
-- The **Clear** button resets the list of filtering criteria.
+- **Clear** — сброс (отмена) всего списка заданных условий фильтрации.
 
-- The **Status** button group is used for displaying only the new, modified or locked segments in the editor. Segments are locked or unlocked using the Protection button group in the Home tab.
+- **Status** — отображение только новых, только измененных или только заблокированных сегментов в окне редактора. Для блокировки или разблокировки сегментов служит группа кнопок Protection на вкладке Home.
 
-- The **Marked Up** element group (see above).
+- **Marked Up** — см. выше про фильтрацию на основе выделения цветом.
 
-- The **Search** element group is used to filter away any segments that don't contain the specified text fragment. A specific segment field, selected by means of the Field drop-down list, will be searched for the fragment entered in the Text box. If the Contains button is used to start the filtering process, the editor will display every segment that contains the text within the appropriate field. If the Equals button is used, only the segment in which the field’s content is a complete match to the text will be shown.
+- **Search** — отображение сегментов, содержащих указанный фрагмент текста. Искомый фрагмент текста вводится в поле Text. Поле сегмента, в котором будет выполняться поиск, выбирается в раскрывающемся списке Field. Кнопка Contains задает отображение в редакторе только сегментов, содержащих указанный текст в заданном поле сегмента. Кнопка Equals задает отображение сегментов, у которых текст в заданном поле точно совпадает с искомым текстом.
 
-- The **Advanced** element group (see below).
+- **Advanced** — см. ниже.
 
-### Find and Replace
+### Поиск и замена
 
-You can use standard find-and-replace functions in the editor.
+В редакторе имеются стандартные функции поиска и замены.
 
-You can activate the **Search and Replace** window by pressing either `CTRL+F` or the **Search** button in the **Text Search** group of the **Home** tab.
+Для отображения панели **Search and Replace** нажмите клавиши CTRL+F или кнопку **Search** в группе **Text Search** на вкладке **Home**.
 
-Goldpan enables the use of regular expressions with these functions, which can be quite useful. For example, you may need to edit or remove the time codes that are present in your TM data. In that case, you'd simply run a search or replace query with the "\d\d:\d\d:\d\d\s" regular expression (for a "11:22:33" format of time codes) in the "Find what" field. The use of regular expressions is toggled via the **Use Regular expression** checkbox.
+Удобно, что при поиске и замене можно использовать регулярные выражения. Например, чтобы отредактировать или удалить метки времени, оставшиеся в переводах субтитров. Это можно сделать с помощью регулярного выражения "\d\d:\d\d:\d\d\s" в поле Find what для поиска меток времени формата "11:22:33". Включать и отключать режим регулярных выражений можно с помощью флажка **Use Regular expression**.
 
-### Clearing tags
+### Очистка тегов
 
-You can clean up your translation resources by removing unwanted tags of various types (including the `XML` and `RTF` tags) as well as any superfluous spaces at the start and at the end of a given text.
+Обычно переводческие ресурсы приходится чистить от нежелательной технической информации в виде тегов гипертекстовой разметки различного вида (включая теги файлов формата XML и RTF). Также бывает нужно удалить начальные и конечные пробелы в полях сегмента.
 
-The **Clean** drop-down list in the **Text Cleaning** group of the Home tab is used for this purpose. Selecting any of the items on the list executes the corresponding operation for all highlighted cells:
+Для этого служит раскрывающийся список **Clean** в группе **Text Cleaning** на вкладке **Home**. Выбранный в этом списке способ очистки применяется для всех выделенных ячеек:
 
-- **Tags only** removes any angle bracket (< >) tags.
+- **Tags only** — удаляются теги с угловыми скобками (< >).
 
-- **Tags such as { }** remove any curly bracket or other corresponding tags.
+- **Tags such as { }** — удаляются теги с фигурными скобками и аналогичные конструкции.
 
-- **Trim first and last spaces** removes any unneeded spaces.
+- **Trim first and last spaces** — удаляются все лишние пробелы.
 
-- **Clear cells** clears the cells.
+- **Clear cells** — удаляется все содержимое выбранных ячеек.
 
-If you are operating a **PRO Version** of Goldpan, there is now - as of Version 3.6 - another option ready for you: the **Clean tags in files** button in the Batch Tools tab. With it, you can clean up entire batches of files in a few clicks. Pressing this button calls a dialog window. There, you can set up a list of files to be cleared of tags using the **Add File** (which calls an additional dialog window for selecting one or more TMX/TBX files) and **Add TMX Dir** (which calls another window for designating entire folders) buttons. The **Clean tags**, **Clean tags like { }** and **Trim first and last spaces** checkboxes determine the method of tag-clearing to be employed, similiar to the buttons described above. After you've listed all the files and chosen the clearing method, press the CLEAN button to execute!
+В версии **PRO** программы Goldpan функционал очистки усилен функцией **Clean tags in files** на вкладке **Batch Tools**. Эта функция упрощает и автоматизирует очистку больших наборов файлов в пакетном режиме. По нажатию этой кнопки открывается окно настроек. В нем можно выбрать список файлов для очистки. Выбирать можно отдельные файлы кнопкой **Add File** (появится дополнительное окно выбора одного или нескольких файлов формата TMX или TBX), либо целые папки — кнопкой **Add TMX Dir** (появится другое окно для выбора папки с файлами). Флажки **Clean tags**, **Clean tags like { }** и **Trim first and last spaces** задают режимы очистки, аналогичные описанным выше кнопкам. После выбора файлов и задания способа очистки запустите процесс кнопкой CLEAN.
 
-![The dialog window](clean.png)
+![Диалоговое окно](clean.png)
 
-### QA Filtering options
+### Фильтры для контроля качества (QA)
 
-You can perform basic QA checking on your translation resources, as Goldpan provides various methods of segment filtering based on source-target comparison.
+В программе реализованы базовые проверки качества для переводческих ресурсов на основе различных способов сравнения исходного текста и его перевода и фильтров.
 
-The **Filter Checks** drop-down list from the Advanced group of the Filters and Checks tab is used for this purpose. It contains the following elements:
+Для этого служит раскрывающийся список **Filter Checks** в группе **Advanced** на вкладке **Filters and Checks**. Он содержит следующие фильтры:
 
-- **Source = Target** displays only the segments in which the contents of the source and target fields match.
+- **Source = Target** — отображаются только сегменты, в которых текст перевода совпадает с исходным текстом (дублирует его).
 
-- **Capitalization** displays only the segments in which the text in the source and target fields begins with different capitalization.
+- **Capitalization** — отображаются только сегменты, в которых регистр первой буквы исходного текста отличается от регистра первой буквы перевода.
 
-- **Leading and trailing spaces** displays only the segments with different leading and trailing spaces in their source and target fields.
+- **Leading and trailing spaces** — отображаются только сегменты, в которых исходный текст и перевод отличаются по количеству начальных или конечных пробелов.
 
-- **Double spaces** displays only the segments in which the source and target fields contain different sets of double spaces.
+- **Double spaces** — отображаются только сегменты, в которых исходный текст и перевод отличаются по количеству двойных пробелов.
 
-- **Digits and numbers** displays only the segments in which the source and target fields contain different sets of digits and numbers.
+- **Digits and numbers** — отображаются только сегменты, в которых исходный текст и перевод содержат разные наборы цифр или чисел.
 
-- **Placeholders** displays only the segments in which the source and target fields contain different sets of placeholders (i.e., formatted printing sequences: %s, %d, %1, etc.)
+ - **Placeholders** — отображаются только сегменты, в которых исходный текст и перевод содержат разные наборы местозаполнителей, таких как %s, %d, %1 и им подобных.
 
-- **Punctuation** displays only the segments in which the source and target fields differ in leading and trailing punctuation.
+- **Punctuation** — отображаются только сегменты, в которых исходный текст и перевод отличаются по начальным и конечным знакам препинания.
 
-- **Relative size** displays only the segments in which the source and target fields vary greatly in the volume of text they contain.
+- **Relative size** — отображаются только сегменты, в которых исходный текст и перевод существенно отличаются друг от друга по длине текста.
 
-- **Empty segments** displays only the segments in which either the source or the target field is empty.
+- **Empty segments** — отображаются только сегменты, в которых поле исходного текста или поле перевода пустое.
 
-- **Partially translated** displays only the segments in which the target field partially matches the content of the source field, pointing to partial translation.
+- **Partially translated** — отображаются только сегменты, в которых перевод содержит фрагменты исходного текста, что может свидетельствовать о неполном переводе.
 
-- **Find duplicates** displays duplicate segments.
+- **Find duplicates** — отображаются сегменты-дубликаты.
 
-The check is performed for a single language pair, i.e. the source language and a particular target language selected from the **Ref.Pair** drop-down list.
+Каждая проверка выполняется для одной языковой пары, то есть языков, выбранных в списке **Ref.Pair**.
 
-A new element, **Text and RegExp Filter**, has been added in Version 3.5.3. It deserves a chapter of its own.
+В версии 3.5.3 был добавлен фильтр с использованием регулярных выражений **Text and RegExp Filter**. О нем подобнее рассказано ниже.
 
-### Text and Regular Expression Filtering
+### Фильтрация текста с использованием регулярных выражений
 
-The **Text and RegExp Filter** function is different from the other ones that are accessed through the **Filter Checks** drop-down list.
+Функция **Text and RegExp Filter** отличается от остальных фильтров в раскрывающемся списке **Filter Checks**.
 
-It displays a dialog window resembling the standard Find & Replace window. However, instead of finding or replacing individual records, this one filters out a list of all the records containing a specific string, or matching a regular expression.
+Ее диалоговое окно похоже на окно стандартной функции Find & Replace. Отличие в том, что вместо поиска и замены отдельных записей в данном случае выводится список всех записей, содержащих искомую строку или соответствующих заданному регулярному выражению.
 
-We've created this function with the task of 'cleaning up TM corpi' in mind. For example, if you need to send a corpus (or a fragment of it) somewhere, for training or testing a machine translation engine, you may want to filter out all the records containing the name of your company, in order to then remove them (or to edit them, perhaps using regular expressions). In the past, it has been noted that Goldpan did not offer this capability - but it does, now!
+Эта функция была создана под задачу очистки целых корпусов памяти переводов. Например, если нужно передать куда-либо корпус или его часть для обучения или тестирования системы машинного перевода, полезно сразу проверить все записи, содержащие названия реальных организаций, чтобы удалить их (или заменить с использованием те же регулярных выражений).
 
-By default, the filtering is performed through the target cell contents. The **Search in source** option enables filtering via the source cell contents. There is a **Match case** option, as well.
+По умолчанию фильтрация выполняется по содержимому ячеек поля перевода. Опция **Search in source** позволяет фильтровать по исходному тексту. Также имеется режим **Match case**.
 
-![Let's filter out all the records that have the word 'Accounting' in the source](accounting1.png)
-*Let's filter out all the records that have the word 'Accounting' in the source*
+![Пример отбора всех записей, содержащих слово Accounting в исходном тексте](accounting1.png)
+*Пример отбора всех записей, содержащих слово Accounting в исходном тексте*
 
-The **Use RegExp** option enables you to use regular expressions for filtering. A link to the regular expression specification at microsoft.com is provided for quick reference.
+Опция **Use RegExp** позволяет применять регулярные выражения при фильтрации записей. Для справки приведена ссылка на спецификацию регулярных выражений на сайте microsoft.com.
 
-![Now let's filter out those that specifically start with this word, instead of just having it anywhere](regexp1.png)
-*Now let's filter out those that specifically start with this word, instead of just having it anywhere*
+![Пример отбора записей, начинающихся с этого слова](regexp1.png)
+*Пример отбора записей, начинающихся с этого слова*
 
-### Split & Merge
+### Расщепление и объединение
 
-You can split and merge translation memory files using several criteria, in batch mode.
+В пакетном режиме можно расщеплять или объединять файлы памяти переводов с заданием ряда параметров.
 
-The **Split & Merge** group of the Batch Tools tab is used:
+Группа **Split & Merge** на вкладке **Batch Tools** содержит следующие кнопки:
 
-- The **Split** button opens a dialog window that is used to split TBX/TMX files, and the source file is selected by means of the Browse button. The size of the resulting files is determined by segment count or by file size, depending on the user's requirement. The OK button is activated when the source file and splitting method are selected.
+- **Split** — открывает диалоговое окно для расщепления одного файла формата TBX или TMX. Кнопка **Browse** служит для выбора исходного файла. Размер каждого из конечных файлов задается либо по количеству сегментов, либо по размеру файла. После выбора исходного файла и способа расщепления становится доступной (активируется) кнопка запуска процесса **OK**.
 
-- The **Merge** button opens a dialog window used for merging a batch of TBX/TMX files. The source language of the resulting file is selected from the Source/Admin language drop-down list or set by entering a language code. The File List element group facilitates the addition of all TMX/TBX files in a particular folder to the list (Add TMX Dir, Add TBX Dir), the addition of arbitrary files or groups of files (Add File), the removal of files from the list one by one (Delete) or the clearing of the list (Clear). The OK button becomes active when a source language is set and at least one or more files are added to the list.
+- **Merge** — открывает диалоговое окно для объединения в один файл набора файлов формата TBX или TMX. Исходный язык для файла-результата выбирается в раскрывающемся списке **Source/Admin language** или путем ввода кода языка. Группа **File List** обеспечивает добавление всех файлов формата TMX или TBX из некоторой папки в список объединения (**Add TMX Dir**, **Add TBX Dir**). Кнопка **Add File** позволяет добавлять произвольные файлы или группы файлов. Кнопка **Delete** служит для удаления файлов из списка по одному за раз. Кнопка **Clear** очищает сразу весь список. После выбора исходного языка и добавления в список объединения минимум одного файла становится доступной (активируется) кнопка **OK**.
 
-### Format conversions
+### Преобразование формата файлов
 
-You can convert `XLSX` files into the `TMX`, `TBX` or `XLF` format, in batch mode.
+В пакетном режиме файлы формата XLSX (таблицы Excel) можно преобразовать в формат TMX, TBX или XLF.
 
-The **Converters** group of the Batch Tools tab is used. Each of the buttons (Convert to TMX, Convert to TBX, Convert to XLF) calls a dialog window in which the user will:
+Для этого служит группа **Converters** на вкладке **Batch Tools**. Каждая из кнопок **Convert to TMX**, **Convert to TBX**, **Convert to XLF** открывают свое диалоговое окно, в котором можно:
 
-- select a single XLSX file for conversion using the Browse button
+- с помощью кнопки **Browse** выбрать один файл формата XLSX для преобразования;
 
-- set the languages for the resulting multilingual file. Each language has to be selected from the Language drop-down list (or entered as a language code) and added to the list by means of the Add button
+- задать языки для многоязыкового файла результата. Каждый язык выбирается в раскрывающемся списке языков **Language**, либо вводится в виде кода языка, а затем добавляется в список с помощью кнопки **Add**;
 
-- set the source language by selecting it from the Primary language drop-down list or entering a language code
+- задать исходный язык с помощью раскрывающегося списка **Primary language** или путем ввода кода языка.
 
-The OK button becomes active when a XLSX file is selected and at least two languages are added to the list.
+После выбора XLSX-файла и добавления минимум двух языков становится доступной (активируется) кнопка **OK**.
 
-Goldpan lets the user choose each of the resources required from various sources and then merge them into new translation-memory resource files as needed.
+Программа Goldpan позволяет выбирать ресурсы из самых разных источников и объединять их новом файле стандартного формата памяти переводов.
