@@ -14,11 +14,11 @@
 
 **Interpretisto** поддерживает разделение ролей участников конференции. Для каждой роли автоматически создаются отдельные ссылки и коды для подключения к конференции.
 
-- Докладчик (Presenter): роль выступающего на конференциях типа вебинара ([Функции](http://logrus.co/#/interpretisto?id=presenter));
-- Участник (Participant): роль полноправного участника на конференциях типа совещаний ([Функции](http://logrus.co/#/interpretisto?id=participant));
-- Переводчик (Interpreter): роль устного переводчика, необходимого на любой международной конференции ([Функции](http://logrus.co/#/interpretisto?id=interpreter));
-- Слушатель (удаленный) (Attendee (Event Remote)): роль для участников онлайн-конференций типа вебинара ([Функции](http://logrus.co/#/interpretisto?id=attendee-event-local));
-- Слушатель (в зале) (Attendee (Event Local)): роль для участников международных конференций с физическим присутствием на мероприятии ([Функции](http://logrus.co/#/interpretisto?id=attendee-event-remote));
+- Докладчик (Presenter): роль выступающего на конференциях типа вебинара ([Функции](http://logrus.pro/#/interpretisto?id=presenter));
+- Участник (Participant): роль полноправного участника на конференциях типа совещаний ([Функции](http://logrus.pro/#/interpretisto?id=participant));
+- Переводчик (Interpreter): роль устного переводчика, необходимого на любой международной конференции ([Функции](http://logrus.pro/#/interpretisto?id=interpreter));
+- Слушатель (удаленный) (Attendee (Event Remote)): роль для участников онлайн-конференций типа вебинара ([Функции](http://logrus.pro/#/interpretisto?id=attendee-event-local));
+- Слушатель (в зале) (Attendee (Event Local)): роль для участников международных конференций с физическим присутствием на мероприятии ([Функции](http://logrus.pro/#/interpretisto?id=attendee-event-remote));
 
 ## Технические требования
 
