@@ -20,7 +20,7 @@
 - Слушатель (удаленный) (Attendee (Event Remote)): роль для участников онлайн-конференций типа вебинара ([Функции](http://logrus.co/#/interpretisto?id=attendee-event-local));
 - Слушатель (в зале) (Attendee (Event Local)): роль для участников международных конференций с физическим присутствием на мероприятии ([Функции](http://logrus.co/#/interpretisto?id=attendee-event-remote));
 
-## Технические требоания
+## Технические требования
 
 В **Interpretisto** разные роли пользователей отличаются требованиями к скорости канала подключения и программному и аппаратному оснащению рабочего места:
 
@@ -45,169 +45,167 @@
 
 Участники с ролью **Докладчик (Presenter)** или **Слушатель (в зале) (Attendee (Event Local))** смогут войти в конференцию немедленно.
 
-Участникам с ролью **Участник (Participant)**, **Переводчик (Interpreter)** или **Слушатель (удаленный) (Attendee (Event Remote))** предалагается окно подключения к конференции:
+Участникам с ролью **Участник (Participant)**, **Переводчик (Interpreter)** или **Слушатель (удаленный) (Attendee (Event Remote))** предлагается окно подключения к конференции:
 
 ![interpretisto_enter](interpretisto_entry.png)
 
-Здесь перед подключением можно настроить различные параматеры и фукнции конференции, доступные для данной роли, такие как стриминг аудио и видео (1, 2), вид камеры (3), дополнительные материалы (4) и меню опций (5). 
+Здесь перед подключением можно настроить различные параметры и функции конференции, доступные для данной роли, такие как стриминг аудио и видео (1, 2), вид камеры (3), дополнительные материалы (4) и меню опций (5). 
 
 Участники с ролью **Участник (Participant)** или **Переводчик (Interpreter)** должны ввести свое имя (6) перед подключением. А переводчик должен также выбрать языковую пару.
 
 По завершении настройки нажмите кнопку **Connect** (7) для входа в конференцию.
 
-## Available Functions
+## Функции программы
 
-**Interpretisto** provides a unique set of available functions for each user role, as all of them differ in the types of data they can stream and receive.
+Функции **Interpretisto** отличаются в зависимости от роли пользователя. Роль определяет, какие потоки данных может получать или отправлять пользователь.
 
-It's important to note that the **Interpretisto** UI is adaptive, and will adjust to the available hardware and software, as well as conference settings. If your device does not have a connected webcam or another source of video streaming, the **Video Streaming** button will not appear in your UI even if your role enables video streaming. Similarly, if the conference has no language pairs selected - i.e., does not require interpretation - the **Turn interpretation on/off** button will not appear, and, if the conference does not include any additional materials, the **Download additional materials** button will not appear either.
+**Interpretisto** отличается адаптивным интерфейсом пользователя, который гибко подстраивается под возможности устройства пользователя и его  программное обеспечение, а также настройки конференции. Если у устройства отсутствует веб-камера или иной источник видео, кнопка **Video Streaming** не отображается, даже если роль данного пользователя разрешает ему передачу видеоряда. Аналогично, если конференции не назначены никакие пары языков, то есть синхронный перевод не требуется, кнопка **Turn interpretation on/off** не отображается. А при отсутствии приложенных к конференции дополнительных материалов не показывается кнопка **Download additional materials**.
 
-### Presenter
+### Роль "Докладчик (Presenter)"
 
-As a **Presenter**, you can stream your video and audio, as well as share your screen.
+**Докладчик (Presenter)** может передавать видео и аудио, а также транслировать для всех содержимое своего экрана.
 
-You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
+Доступны дополнительные материалы конференции (если они приложены) посредством кнопки **Download additional materials**.
 
-The **On Air** switch starts your presentation, enabling you to stream video and audio.
+Переключатель **On Air** запускает презентацию докладчика и передачу видео- и аудиопотока.
 
-The following UI elements and functions are available to a **Presenter**:
+**Докладчику (Presenter)** доступны следующие возможности:
 
 ![Presenter UI](presenter_v2.png)
 
-1. *Video Streaming On/Off and streaming source selection*
-2. *Audio Streaming On/Off*
-3. *Screen Sharing On/Off*
-4. *My Camera View On/Off*
-5. *Download Additional Materials*
-6. *Options Menu*
-7. *Video Streaming Window*
-8. *On Air switch & Mute*
+1. *Включение-выключение передачи видео и выбор источника видеосигнала*
+2. *Включение-выключение передачи аудио*
+3. *Включение-выключение трансляции экрана*
+4. *Включение-выключение панели "Видео с моей камеры"*
+5. *Скачать дополнительные материалы*
+6. *Меню "Настройки" (Options)*
+7. *Окно видеотрансляции*
+8. *Переключатели "В эфире" (On Air) и "Выключить микрофон" (Mute)*
 
-### Participant
+### Роль "Участник" (Participant)
 
-As a **Participant**, you can, by default:
+По умолчанию **Участник (Participant)** может:
 
-- Stream your video and audio;
-- Share your screen;
-- See and hear what the other **Participants** and **Presenters** are streaming and sharing;
-- Access the chat.
+- передавать свои аудио и видео;
+- транслировать свой экран;
+- видеть и слышать, что передают или транслируют другие участники с ролями **Участник (Participant)** или **Докладчик (Presenter)**;
+- общаться в чате.
 
-If the conference has interpretation enabled, you will be able to choose your preferred language in order to hear the simultaneous interpretation being done for that language. Any other audio will be reduced in volume to 30%, by default, to make the interpreration easier to hear. You can change this reduction rate in the **Options** menu. A green light will appear on your **Turn interpretation on/off** UI button if an **Interpreter** of the appropriate language pair is online.
+Если для конференции разрешен синхронный перевод, можно выбрать предпочтительный язык, чтобы слышать синхронный перевод для этого языка. Остальные аудиопотоки будут приглушены на 30% по умолчанию, чтобы перевод было лучше слышно. Приглушение можно регулировать в меню **Options**. Когда синхронный переводчик для соответствующей пары языков выходит в эфир, загорается зеленая лампочка на кнопке **Turn interpretation on/off**.
 
-You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
+Доступны дополнительные материалы конференции (если они приложены) посредством кнопки **Download additional materials**.
 
-The following UI elements and functions are available to a **Participant**:
+**Участнику (Participant)** доступны следующие возможности:
 
 ![Participant UI](participant_v2.png)
 
-1. *Video Streaming On/Off and streaming source selection (on this screenshot, the user has no video streaming source available, thus streaming is disabled as is the My Camera View On/Off button)*
-2. *Audio Streaming On/Off*
-3. *Screen Sharing On/Off*
-4. *Participant Panel Show/Hide*
-5. *Chat Window Show/Hide*
-6. *Interpretation On/Off and interpretation language selection*
-7. *Download Additional Materials*
-8. *Options Menu*
-9. *Participant Panel*
-10. *Current Speaker View*
-11. *Chat Window*
-12. *Leave Conference*
+1. *Включение-выключение передачи видео и выбор источника видеосигнала (на представленном снимке экрана пользователь не располагает источниками видеосигнала, поэтому передача видео отключена, а кнопка My Camera View On/Off неактивна)*
+2. *Включение-выключение передачи аудио*
+3. *Включение-выключение трансляции экрана*
+4. *Включение-выключение панели "Участники"*
+5. *Показать-скрыть окно чата*
+6. *Включение-выключение перевода и выбор языка перевода*
+7. *Скачать дополнительные материалы*
+8. *Меню "Настройки" (Options)*
+9. *Панель "Участники"*
+10. *Панель текущего выступающего*
+11. *Окно чата*
+12. *Кнопка выхода из конференции*
 
-### Interpreter
+### Роль "Переводчик" (Interpreter)
 
-As an **Interpreter**, you can see and hear what the users with the **Presenter** and **Participant** roles are streaming in video (active speaker only) and audio.
+Пользователь с ролью **Переводчик (Interpreter)** может видеть (только активного в данный момент докладчика) и слышать, что передают другие участники с ролями **Участник (Participant)** или **Докладчик (Presenter)**.
 
-You can stream audio in a specific channel, audible only to **Participants** and **Attendees** who have switched on the appropriate interpretation language option, as well as to other **Interpreters** of your language pair.
+Речь переводчика передается по отдельному каналу. Переводчика слышат только те пользователи с ролями **Участник (Participant)** или **Слушатель (Attendee)**, которые выбрали соответствующий язык перевода, а также другие переводчики данной пары языков.
 
-You can monitor the chat as well.
+Доступен чат.
 
-**Interpreters** belonging to the same language pair can talk privately. They can see and hear each other, and have access to a private chat, exclusive to the **Interpreters** of their language pair.
+Переводчики в одной паре языков могут приватно беседовать между собой. Они слышат и видят друг друга и могут общаться в приватном чате, доступном только переводчикам в данной паре языков.
 
-The **On Air** switch signals that you are prepared to start interpreting, enabling you to stream audio.
+Переключатель **On Air** сигнализирует о готовности рабочего места переводчика к началу перевода и передаче звукового потока.
 
-You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
+Доступны дополнительные материалы конференции (если они приложены) посредством кнопки **Download additional materials**.
 
-The following UI elements and functions are available to an **Interpreter**:
+**Переводчику (Interpreter)** доступны следующие возможности:
 
 ![Interpreter UI](interpreter_v2.png)
 
-1. *Video Streaming On/Off and streaming source selection*
-2. *Audio Streaming On/Off*
-3. *Interpreter Panel Show/Hide*
-4. *Chat Window Show/Hide*
-5. *My Camera View On/Off*
-6. *Download Additional Materials*
-7. *Options Menu*
-8. *On Air Switch*
-9. *Interpretation language selection*
-10. *Mute*
-11. *Interpreter Panel*
-12. *Current Speaker*
-13. *Chat Window*
-14. *My Camera View (present due to the My Camera View switch being put in the ON position)*
-15. *Leave Conference*
+1. *Включение-выключение передачи видео и выбор источника видеосигнала*
+2. *Включение-выключение передачи аудио*
+3. *Показать-скрыть панель переводчика*
+4. *Показать-скрыть окно чата*
+5. *Включение-выключение панели "Видео с моей камеры"*
+6. *Скачать дополнительные материалы*
+7. *Меню "Настройки" (Options)*
+8. *Переключатель "В эфире" (On Air)*
+9. *Выбор языка перевода*
+10. *Выключить микрофон (Mute)*
+11. *Панель переводчика*
+12. *Текущий докладчик*
+13. *Окно чата*
+14. *Панель "Видео с моей камеры" (отображается, когда переключатель My Camera View находится в положении ON)*
+15. *Кнопка выхода из конференции*
 
+### Роль "Слушатель (удаленный)" (Attendee (Event Remote))
 
+Пользователь с ролью **Слушатель (удаленный) (Attendee (Event Remote))** может видеть и слышать, что передают другие участники с ролями **Участник (Participant)** или **Докладчик (Presenter)**, а также следить за чатом. 
 
-### Attendee (Event Remote)
+Если на конференции организован синхронный перевод, слушатель может выбрать предпочтительный язык, чтобы слышать синхронный перевод для этого языка. Остальные аудиопотоки будут приглушены на 30% по умолчанию, чтобы перевод было лучше слышно. Приглушение можно регулировать в меню **Options**. Когда синхронный переводчик для соответствующей пары языков выходит в эфир, загорается зеленая лампочка на кнопке **Turn interpretation on/off**.
 
-As an **Attendee (Event Remote)**, you can see and hear what the users with the **Presenter** and **Participant** roles are streaming in video and audio, as well as monitor the chat. 
+Доступны дополнительные материалы конференции (если они приложены) посредством кнопки **Download additional materials**.
 
-If the conference has interpretation enabled, you will be able to choose your preferred language in order to hear the simultaneous interpretation being done for that language. Any other audio will be reduced in volume to 30%, by default, to make the interpreration easier to hear. You can change this reduction rate in the **Options** menu. A green light will appear on your **Turn interpretation on/off** UI button if an **Interpreter** of the appropriate language pair is online.
-
-You will have access to the additional materials of the conference (if any) via the **Download additional materials** button.
-
-The following UI elements and functions are available to an **Attendee (Event Remote)**:
+**Слушателю (удаленному) (Attendee (Event Remote))** доступны следующие возможности:
 
 ![Attendee UI](attendee_v2.png)
 
-1. *Participant Panel Show/Hide*
-2. *Chat Window Show/Hide*
-3. *Interpretation On/Off and interpretation language selection*
-4. *Download Additional Materials*
-5. *Options Menu*
-6. *Participant Panel*
-7. *Current Speaker*
-8. *Chat Window*
-9. *Leave Conference*
+1. *Показать-скрыть панель участника*
+2. *Показать-скрыть окно чата*
+3. *Включение-выключение перевода и выбор языка перевода*
+4. *Скачать дополнительные материалы*
+5. *Меню "Настройки" (Options)*
+6. *Панель участника*
+7. *Текущий докладчик*
+8. *Окно чата*
+9. *Кнопка выхода из конференции*
 
-### Attendee (Event Local)
+### Роль "Слушатель (в зале)" (Attendee (Event Local))
 
-As an **Attendee (Event Local)**, you can only listen to any available **Interpreters** that translate into the language of your choice.
+Пользователь с ролью **Слушатель (в зале) (Attendee (Event Local))** может только слушать переводчиков на выбранный им язык.
 
-The following UI elements and functions are available to an **Attendee (Event Local)**:
+**Слушателю (в зале) (Attendee (Event Local))** доступны следующие возможности:
 
 ![Attendee UI 2](ui_attendee_local_1.png)
 
-1. *Interpretation language selection*
-2. *Interpretation On/off*
+1. *Выбор языка перевода*
+2. *Включение-выключение перевода*
 
-## Managing Cofnerences
+## Управление конференциями
 
-We've made the UI for managing conference to be as intuitive as possible. If you have been empowered to manage conferences, you can access the management page by simply clicking the **Manage Conferences** link in the upper right corner of the screen.
+Средства управления конференциями интуитивно понятны. При наличии соответствующих прав для доступа к странице управления щелкните ссылку **Manage Conferences** в верхнем правом углу экрана.
 
 ![Management 1](manage_conf_1.png)
-*The Management Screen*
+*Экран параметров управления*
 
-Once there, you can create a new conference by writing its name in the text box and pressing the **Create Conference** button. If there are existing conferences, you can jump to the editing screen of a particular conference by clicking the link in its name, as well as close or delete them with the appropriate buttons.
+Здесь можно создать конференцию — введите ее название в текстовом поле и нажмите кнопку **Create Conference**. Если в системе уже есть ранее созданные конференции, их можно редактировать. Для этого щелкните название нужной конференции. Конференции можно также закрывать или удалять с помощью соответствующих кнопок.
 
 ![Management 2](manage_conf_2.png)
-*The Editing Screen*
+*Экран редактирования*
 
-On the editing screen, you can control every aspect of the conference:
+Экран редактирования позволяет управлять всеми возможностями конференций:
 
-- Set its name, or rename it at any time in the top section;
-- Set the time period when the conference will be available using the **Schedule**  section;
-- Set the language pair, or pairs, that will be used for interpreting - as many as you need, in the **Interpreted Language Pairs** section;
-- Upload a picture to serve as a logo that all invitees will see in the top right corner of their UI, in the **Logo** section;
-- Upload any files that you want your invitees (besides the **Attendee (Event Local)** role) to have access to, in the **Additional Materials** section;
+- в любое время задавать или менять название (в верхней секции);
+- задавать интервал времени, когда конференция доступна (в разделе **Schedule**);
+- задавать одну или несколько пар языков перевода - любое количество (в разделе **Interpreted Language Pairs**);
+- загружать изображение в качестве эмблемы, которое все приглашенные увидят в верхнем правом углу окна конференции (в разделе **Logo**);
+- загружать любые файлы для раздачи участникам (исключая пользователей с ролью **Слушатель (в зале) (Attendee (Event Local))**) (в разделе **Additional Materials**);
 
-In the top right corner of the UI, you will find a list of links and join codes. They are automatically generated for every available role in this conference, with the **Attendee (Event Local)** and **Interpreter** roles being enabled only for conferences with language pairs selected.
+В верхнем правом углу экрана находится список ссылок и кодов доступа к конференции. Они автоматически создаются отдельно для каждой роли в данной конференции. При этом роли **Слушатель (в зале) (Attendee (Event Local))** и **Переводчик (Interpreter)** активируются только для конференций с выбранными языками перевода.
 
-## Types of Conferences Possible
+## Типы конференций
 
-Interpretisto can be used for creating conferences of any kind. There are no strict pre-set rules, but possible variations include:
+С помощью программы Interpretisto можно создавать конференции самых разных типов. Строгих ограничений тут нет, приведем для примера варианты:
 
-- A meeting-style conference of equal participants, with all users in the **Participant** role;
-- A conference of equal participants, with users in the **Participant** role and some **Interpreters** invited;
-- A webinar-type conference, with a single **Presenter** speaking, **Attendees** listening and **Interpreters** invited if necessary;
-- A meeting/webinar hybrid, with both **Attendees** and **Participants**;
+- конференция в стиле "совещание" с равноправными участниками с ролью **Участник (Participant)**;
+- конференция равноправных участников с ролью **Участник (Participant)** и несколькими приглашенными устными переводчиками с ролью **Переводчик (Interpreter)**;
+- вебинар с одним выступающим с ролью **Докладчик (Presenter)**, неким количеством посетителей с ролью **Слушатель (Attendee)** и при необходимости — приглашенными устными переводчиками с ролью **Переводчик (Interpreter)**;
+- гибридное совещание-вебинар с участием пользователей с ролями **Слушатель (Attendee)** и **Участник (Participant)**.
