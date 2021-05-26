@@ -14,7 +14,7 @@
 
 **Interpretisto** поддерживает разделение ролей участников конференции. Для каждой роли автоматически создаются отдельные ссылки и коды для подключения к конференции.
 
-- Докладчик (Presenter): роль выступающего на конференциях типа вебинара ([Функции](http://logrus.pro/#/interpretisto?id=presenter));
+- Докладчик (Presenter): роль выступающего на конференциях типа вебинара ([Функции](http://logrus.pro/#/interpretisto?id=Роль-quotДокладчик-presenterquot));
 - Участник (Participant): роль полноправного участника на конференциях типа совещаний ([Функции](http://logrus.pro/#/interpretisto?id=participant));
 - Переводчик (Interpreter): роль устного переводчика, необходимого на любой международной конференции ([Функции](http://logrus.pro/#/interpretisto?id=interpreter));
 - Слушатель (удаленный) (Attendee (Event Remote)): роль для участников онлайн-конференций типа вебинара ([Функции](http://logrus.pro/#/interpretisto?id=attendee-event-local));
