@@ -14,11 +14,11 @@
 
 **Interpretisto** поддерживает разделение ролей участников конференции. Для каждой роли автоматически создаются отдельные ссылки и коды для подключения к конференции.
 
-- Докладчик (Presenter): роль выступающего на конференциях типа вебинара ([Функции](http://logrus.pro/#/interpretisto?id=Роль-quotДокладчик-presenterquot));
-- Участник (Participant): роль полноправного участника на конференциях типа совещаний ([Функции](http://logrus.pro/#/interpretisto?id=participant));
-- Переводчик (Interpreter): роль устного переводчика, необходимого на любой международной конференции ([Функции](http://logrus.pro/#/interpretisto?id=interpreter));
-- Слушатель (удаленный) (Attendee (Event Remote)): роль для участников онлайн-конференций типа вебинара ([Функции](http://logrus.pro/#/interpretisto?id=attendee-event-local));
-- Слушатель (в зале) (Attendee (Event Local)): роль для участников международных конференций с физическим присутствием на мероприятии ([Функции](http://logrus.pro/#/interpretisto?id=attendee-event-remote));
+- Докладчик (Presenter): роль выступающего на конференциях типа вебинара ([см. функции](http://logrus.pro/#/interpretisto?id=Роль-quotДокладчик-presenterquot));
+- Участник (Participant): роль полноправного участника на конференциях типа совещаний ([см. функции](http://logrus.pro/#/interpretisto?id=Роль-quotУчастникquot-participant));
+- Переводчик (Interpreter): роль устного переводчика, необходимого на любой международной конференции ([см. функции](http://logrus.pro/#/interpretisto?id=Роль-quotПереводчикquot-interpreter));
+- Слушатель (удаленный) (Attendee (Event Remote)): роль для участников онлайн-конференций типа вебинара ([см. функции](http://logrus.pro/#/interpretisto?id=Роль-quotСлушатель-удаленныйquot-attendee-event-remote));
+- Слушатель (в зале) (Attendee (Event Local)): роль для участников международных конференций с физическим присутствием на мероприятии ([см. функции](http://logrus.pro/#/interpretisto?id=Роль-quotСлушатель-в-залеquot-attendee-event-local));
 
 ## Технические требования
 
