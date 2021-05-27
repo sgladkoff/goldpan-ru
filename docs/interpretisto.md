@@ -19,7 +19,7 @@
 - Переводчик (Interpreter): роль устного переводчика, необходимого на любой международной конференции ([см. функции](http://logrus.pro/#/interpretisto?id=Роль-quotПереводчикquot-interpreter)).
 - Слушатель (удаленный) (Attendee (Event Remote)): роль для участников онлайн-конференций типа вебинара ([см. функции](http://logrus.pro/#/interpretisto?id=Роль-quotСлушатель-удаленныйquot-attendee-event-remote)).
 - Слушатель (в зале) (Attendee (Event Local)): роль для участников международных конференций с физическим присутствием на мероприятии ([см. функции](http://logrus.pro/#/interpretisto?id=Роль-quotСлушатель-в-залеquot-attendee-event-local)).
-- Менеджер конференций (Conference Manager): роль управляющего одной или несколькими конференциями ([см. функции](http://logrus.co/#/interpretisto?id=@@@)).
+- Менеджер конференций (Conference Manager): роль управляющего одной или несколькими конференциями ([см. функции](http://logrus.co/#/interpretisto?id=Роль-quotМенеджер-конференцийquot-conference-manager)).
 
 ## Технические требования
 
