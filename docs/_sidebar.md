@@ -4,5 +4,5 @@
 * [Memose](memose.md)
 * [Rigora](rigora.md)
 * [TermLode](termlode.md)
-* [Legal - Privacy Policy](privacypolicy.md)
-* [Legal - Terms of Use](termsofuse.md)
+* [Политика конфиденциальности](privacypolicy.md)
+* [Условия использования](termsofuse.md)
