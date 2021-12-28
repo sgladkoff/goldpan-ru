@@ -1,7 +1,9 @@
-## Memose: Cloud-based Translation Memory and new generation CAT tool
+## Memose — облачная память переводов с CAT-системой нового поколения
 
-You prepare and clean TM files and then you may store them on your local machine or your company file server. But that is of course an old way of previous century.
+Традиционно память переводов создают и затем обслуживают (например, "чистят") в виде файлов. Файлы памяти переводов хранятся на персональном компьютере пользователя и на корпоративном файловом сервере в составе набора файлов переводческого проекта. Но такая организация памяти переводов уже безнадежно устарела.
 
-The smart way is to use TM Server to keep clean TMs as a central source of knowledge and reuse for yourself and/or your organization.
+Современные решения основаны на сервере памяти переводов как централизованном хранилище чистых массивов данных — фактически, многоязычной базы знаний, доступной для повторного использования и обновления всеми сотрудниками компании.
 
-Logrus Global has a solution for that - it's called **Memose**. With **Memose** you can centralize the storage of TMs, do search, manage your TMs in one common centralized place in your own Memose cloud,  prepare project memory for CAT tool of your choosing, and even translate and edit `.xliff` files! If you want to try Memose, send an email to marcom @ logrusglobal.com.
+Есть такое решение и у компании Logrus Global — программный продукт **Memose**. Это облачное решение позволяет хранить массивы памяти переводов и управлять ими в единой базе данных, выполнять поиск по этой базе данных (поиск по конкордансу), создавать и экспортировать проектную память переводов под конкретный набор исходных файлов для их перевода в любой сторонней CAT-системе, а также переводить прямо в браузере файлы форматов `.xliff` и `.xlsx` с подключением самых разных систем машинного перевода! 
+
+Чтобы попробовать Memose в работе, напишите нам по адресу: marcom @ logrusglobal.com.
