@@ -1,5 +1,6 @@
 * [Обзор платформы Localization Cloud](README.md)
 * [Goldpan](goldpan.md)
+* [Hakutaku] (hakutaku.md)
 * [Interpretisto](interpretisto.md)
 * [Memose](memose.md)
 * [Rigora](rigora.md)
