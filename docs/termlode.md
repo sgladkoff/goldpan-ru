@@ -1,60 +1,60 @@
-# The TermLode Application Family
+# Семейство приложений TermLode
 
-The **TermLode** application family is a client-server, cloud-based terminology database solution designed for corporate use.
+Семейство приложений **TermLode** - это облачное решение, включающее в себя серверные и клиентские приложения для корпоративного использования. Оно позволяет создавать терминологические базы данных и управлять ими.
 
-It is comprised of the following applications:
+В семейство входят следующие приложения:
 
-- The **TermLode** terminology database;
-- The **Omnitran** Search application;
-- The **Prospector** Terminology extractor;
-- The **TermLode** Trados connector.
+- Терминологическая БД **TermLode**;
+- Поисковое приложение **Omnitran**;
+- Экстрактор терминологии **Prospector**;
+- Коннектор для **TermLode** и Trados.
 
-In the sense of architecture, it has the following components:
+Архитектура **TermLode** включает следующие основные элементы:
 
-- The **TermLode** termbank;
-- The **TermLode** Cloud Front End;
-- The **Omnitran** Cloud Front End;
-- The **Prospector** Cloud Front End;
-- The **TermLode** **Trados** Connector DLL.
+- Термбанк **TermLode**;
+- Облачный frontend **TermLode**;
+- Облачный frontend **Omnitran**;
+- Облачный frontend **Prospector**;
+- DLL-библиотека коннектора **TermLode**-**Trados**.
 
-## Data Model
+## Модель данных
 
-The **TermLode** data model conforms to the TBX standard (ISO 30042). There’s a **Concept** in the root of the hierarchy, and **Terms** in various languages descend from the root, as shown on the figure:
+Модель данных **TermLode** соответствует стандарту TBX standard (ISO 30042). Корнем иерархии является **концепция**, и **термины** на различных языках происходят из неё, как показано на схеме:
 
 ![termlode_f1](termlode_f1.png)
 
-There's a One-to-Many relationship between a **Concept** and multiple **Terms** is any language, and a Many-to-Many relationship between **Terms** in different languages. This data model reflects the situation when one source term can have several terms for a target language and vice versa.
+Между **концепцией** и набором **терминов** на любых языках существует связь типа "один ко многим", а между **терминами** на различных языках существвует связь типа "многие ко многим". Таким образом модель данных учитывает возможные стуации, когда один **термин** на исходном языке может соответствовать нескольким терминам в языке перевода.
 
-## User Experience
+## Применение
 
 ### TermLode
 
-As you enter the **TermLode** page, the **Terminology Database Manager** will be the first screen you see. 
+После входа на страницу **TermLode** пользователь попадает на экран **Управления терминологическими базами данных**.
 
 ![termlode_add1](termlode_add_1.png)
 
-This screen displays the list of all the **Termbases** available to you, grouped by company name. Company names, as well as the **Termbases**' own names, may be used to filter this list. Using the drop-down menu at the top of the frame, you can switch between it and the **Termbase** creation screen:
+Здесь отображается список доступных пользователю **термбаз** (**терминологических баз данных**), сгруппированный по названиям компаний. Этот список можно фильтровать по названиям компаний или самих **термбаз**. Используя выпадающее меню наверху экрана, можно переключаться между этим списком и экраном создания новых **термбаз**: 
 
 ![termlode_add1](termlode_add_2.png)
 
-You can simply enter the name of the new **Termbase**, pick the default source and target languages and press the **Create New Termbase** button. A new, empty **Termbase** will be created.
+Для создания новой **термбазы** нужно ввести название, выбрать исходный язык и язык перевода по умолчанию, а затем нажать кнопку **Создать новую термбазу**. **TermLode** создаст новую **термбазу** без содержимого.
 
-Click the name of a **Termbase** to enter the **Terminology Database** screen:
+Нажатие на одно из названий **термбаз** ведет на экран **Терминологическая база данных**:
 
 ![termlode_add1](termlode_add_3.png)
 
-The **Term Filter** takes up the top of the screen initially. With it, you can populate the **List of Terms** below, using any of the variables that make up a **Term** to filter the current **Termbase**:
+Верхнюю часть этого экрана занмиает **фильтр терминов**. С его помощью можно заполнять **список терминов** под ним, отбирая **термины** из **термбазы** по выбранным значениям переменных:
 
-- Source text and language;
-- Target text and language;
-- Business domains that terms belong to;
-- Term types (acronym, concept etc.);
-- Parts of speech that are used as terms;
-- Prouducts that the terms belong to;
-- Modules;
-- DNT (Do Not Translate) status;
-- Approval status;
-- Client.
+- Исходный язык и текст;
+- Язык и текст перевода;
+- Бизнес-домены, к которым принадлежит термин;
+- Типы терминов (концепция, сокращение и т.д.);
+- Части речи, исползуемые в качестве терминов;
+- Продукты, с которыми связаны термины;
+- Модули;
+- Наличие или отсутствие статуса "DNT" ("Не переводить");
+- Наличие или отсутствие статуса "Одобренный термин";
+- Клиент.
 
 The **Apply Filter** button refreshes the **List of Terms** in accordance with the current **Term Filter** settings.
 
