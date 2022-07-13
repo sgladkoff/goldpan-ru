@@ -19,11 +19,11 @@
 
 ## Модель данных
 
-Модель данных **TermLode** соответствует стандарту TBX standard (ISO 30042). Корнем иерархии является **концепция**, и **термины** на различных языках происходят из неё, как показано на схеме:
+Модель данных **TermLode** соответствует стандарту TBX (ISO 30042). Корнем иерархии является **концепция**, и **термины** на различных языках происходят из неё, как показано на схеме:
 
 ![termlode_f1](termlode_f1.png)
 
-Между **концепцией** и набором **терминов** на любых языках существует связь типа "один ко многим", а между **терминами** на различных языках существвует связь типа "многие ко многим". Таким образом модель данных учитывает возможные стуации, когда один **термин** на исходном языке может соответствовать нескольким **терминам** в языке перевода.
+Между **концепцией** и набором **терминов** на любых языках существует связь типа "один ко многим", а между **терминами** на различных языках существует связь типа "многие ко многим". Таким образом, модель данных учитывает возможные ситуации, когда один **термин** на исходном языке может соответствовать нескольким **терминам** в языке перевода.
 
 ## Применение
 
@@ -43,13 +43,13 @@
 
 ![termlode_add1](termlode_add_3.png)
 
-Верхнюю часть этого экрана занмиает **фильтр терминов**. С его помощью можно заполнять **список терминов** под ним, отбирая **термины** из **термбазы** по выбранным значениям переменных:
+Верхнюю часть этого экрана занимает **фильтр терминов**. С его помощью можно заполнять **список терминов** под ним, отбирая **термины** из **термбазы** по выбранным значениям переменных:
 
 - Исходный язык и текст;
 - Язык и текст перевода;
 - Бизнес-домены, к которым принадлежит **термин**;
 - Типы **терминов** (концепция, сокращение и т.д.);
-- Части речи, исползуемые в качестве **терминов**;
+- Части речи, используемые в качестве **терминов**;
 - Продукты, с которыми связаны **термины**;
 - Модули;
 - Наличие или отсутствие статуса "DNT" ("Не переводить");
@@ -80,51 +80,51 @@
 
 ![termlode_add1](termlode_add_5.png)
 
-- Меню пользователей, в котором находится список пользователей, приглашенных в данную **термбазу** на различные роли. Здесь же можно приглашать новых пользователей, отправля им ссылки на электронную почту:
+- Меню пользователей, в котором находится список пользователей, приглашенных в данную **термбазу** на различные роли. Здесь же можно приглашать новых пользователей, отправляя им ссылки на электронную почту:
 
 ![termlode_add1](termlode_add_6.png)
 
 ### OmniTran
 
-The **TermLode** data model organizes collections of **Terms** into **Glossaries** by client, as well as by topic. **OmniTran**, a global search front end web interface, enables you to carry out searches for a **Term** across multiple **Glossaries** at once.
+Модель данных **TermLode** организует наборы **терминов** в **глоссарии** по различным темам и клиентам. Глобальный frontend-инетрфейс **OmniTran** позволяет осуществлять поиск **терминов** одновременно в наборе **глоссариев**.
 
 ![termlode_add1](termlode_add_8.png)
 
-You can select just a single **Glossary** or source/target language, or any number of them at once. You can also view selected **Glossaries**, one at a time, as collections of alphabetical sections, by pressing the **A-Z** button:
+Можно выбрать как один **глоссарий**, исходный язык или язык перевода, так и любое другое их количество. Выбранные **глоссарии** можно просматривать в виде коллекций упорядоченных по алфавиту секций, по одному за раз, с помощью кнопки **A-Z**.
 
 ![termlode_f7](termlode_f7.png)
 
 ### Prospector
 
-**Prospector** is an automatic English terminology extraction tool with possibility to review and manually filter terminology candidates.
+**Prospector** - это автоматический инструмент для извлечения англоязычной терминологии из текста с возможностью обзора и фильтрации полученных кандидатов в список **терминов**.
 
 ![termlode_add1](termlode_add_9.png)
 
-You can use **Prospector** to extract **Terms** from a file (the TXT, HTM/HTML, DOC/DOCX XLF/XLIFF/SDXLIFF formats are supported) or from a webpage URL. Choose either option with the File/URL switch and then either copy and paste the web page address into the text box, or click on it to call the file selection dialog. Then, select any pre-existing **Glossaries** as well as processing options that you'd like to use, and press the **Extract Terminology** button.
+С помощью **Prospector** можно извлекать **термины** из файлов формата TXT, HTM/HTML, DOC/DOCX, XLF/XLIFF/SDXLIFF или из веб-страниц по ссылке. Для начала работы надо выбрать нужную позицию переключателя **файл/URL**, а затем либо скопировать адрес страницы в текстовое поле, либо нажать на него, чтобы вызвать диалог выбора файлов. Опциональный шаг - выбор существующих **глоссариев** и настройка других параметров извлечения терминологии, после чего процесс запускается нажатием кнопки **Извлечь терминологию**.
 
-You will see the **Terminology Candidates** window, with all the extracted **Terms** arranged in a list. The list has an option to search for **Terms**, as well as one to save any checked **Terms** in an XLS file. All the terms that appeared more than once will be, by default, checked for saving.
+Все извлеченные **термины** будут отображены в виде списка в окне **кандидатов терминологии**. Присутствуют возможности поиска по списку и сохранения помеченных **терминов** в виде файла XLS. Все **термины**, встреченные более чем один раз, помечаются автоматически.
 
 ![termlode_add1](termlode_add_10.png)
 
 ## Architecture
 
-**TermLode** has an SQL-based backen and a .NET-based frontend, which is an ideal architecture for cloud deployment:
+**TermLode** построен с сочетанием backend на основе SQL и frontend на основе .NET. Это идеальная архитектура для развертывания в облаке:
 
 ![termlode_f8](termlode_f8.png)
 
-**TermLode** can only be accessed by users via browser, as it is a completely web-based, cloud-ready application.
+Доступ пользователей к **TermLode** осуществляется только с помощью браузера. Это на 100% веб-приложение, готовое к работе в облаке.
 
-**TermLode** is built as a corporate application, implementing an ID service and roles to control access for various groups of users with different rights. 
+**TermLode** спроектирован для корпоративного использования. Предусмотрен набор ролей с различными правами для всевозможных групп пользователей.
 
-The current roles are:
+Набор ролей включает в себя:
 
-- Global Administrator
-- Corporate Administrator
-- Corporate User/Editor
-- Terminologist
-- Super Editor
-- Super Terminologist
-- Super Reviewer
-- Viewer/Reviewer
+- Global Administrator (глобальный администратор)
+- Corporate Administrator (корпоративный администратор)
+- Corporate User/Editor (корпоративный пользователь/редактор)
+- Terminologist (терминолог)
+- Super Editor (супер-редактор)
+- Super Terminologist (супер-терминолог)
+- Super Reviewer (супер-читатель)
+- Viewer/Reviewer (читатель)
 
 ![termlode_add1](termlode_add_11.png)
