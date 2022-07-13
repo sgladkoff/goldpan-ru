@@ -23,7 +23,7 @@
 
 ![termlode_f1](termlode_f1.png)
 
-Между **концепцией** и набором **терминов** на любых языках существует связь типа "один ко многим", а между **терминами** на различных языках существвует связь типа "многие ко многим". Таким образом модель данных учитывает возможные стуации, когда один **термин** на исходном языке может соответствовать нескольким терминам в языке перевода.
+Между **концепцией** и набором **терминов** на любых языках существует связь типа "один ко многим", а между **терминами** на различных языках существвует связь типа "многие ко многим". Таким образом модель данных учитывает возможные стуации, когда один **термин** на исходном языке может соответствовать нескольким **терминам** в языке перевода.
 
 ## Применение
 
@@ -47,40 +47,40 @@
 
 - Исходный язык и текст;
 - Язык и текст перевода;
-- Бизнес-домены, к которым принадлежит термин;
-- Типы терминов (концепция, сокращение и т.д.);
-- Части речи, исползуемые в качестве терминов;
-- Продукты, с которыми связаны термины;
+- Бизнес-домены, к которым принадлежит **термин**;
+- Типы **терминов** (концепция, сокращение и т.д.);
+- Части речи, исползуемые в качестве **терминов**;
+- Продукты, с которыми связаны **термины**;
 - Модули;
 - Наличие или отсутствие статуса "DNT" ("Не переводить");
-- Наличие или отсутствие статуса "Одобренный термин";
+- Наличие или отсутствие статуса "Одобренный **термин**";
 - Клиент.
 
-The **Apply Filter** button refreshes the **List of Terms** in accordance with the current **Term Filter** settings.
+Кнопка **Применить фильтр** обновляет **список терминов** в соответствии с настройками **фильтра терминов**.
 
-The **Term Filter** also includes the **Export** and **Export TBX** buttons that are used to create and download a XLSX or a TBX file respectively, containing the **Terms** from the filtered **List of Terms**.
+Кроме того, с помощью кнопок **Экспорт** и **Экспорт TBX** можно загрузить **термины** из отфильтрованного **списка терминов** в виде файла XLSX или TBX соответственно.
 
-The **List of Terms** will show a One-to-Many relationship between the source **Term** and the target **Terms** in multiple languages if the **Term Filter**  is set up for multiple target languages. When you click a source term in the **List of Terms**, the Edit dialog box opens and shows the full multilingual One-to-Many hierarhy - from the **Concept** down to the all its **Terms**, in various languages. You can add new synonym **Terms** in any of the languages already present, or select a new language for adding a **Term**:
+Если в **фильтре терминов** установлено несколько языков перевода, **список терминов** будет отображать связь типа "один ко многим" между исходным **термином** и его переводами на соответствующие языки. При нажатии на исходный **термин** в **списке** открывается диалоговое окно редактирования, в котором отображается полная иерархия "один ко многим" - от **концепции** до каждого внесенного в базу **термина** на всех языках. В этом окне можно добавить новые **термины**-синонимы на присутствующих языках, либо выбрать новый язык для добавления **терминов**.
 
 ![termlode_f3](termlode_f3.png)
 
-The **+ New Term** button at the top right edge of the **Term Filter** calls a dialog window where you can define a new **Concept** and populate it with **Terms**. You are not limited in the number of **Terms** or the languages you can use.
+Кнопка **+ Новый термин** в правом верхнем углу **фильтра терминов** вызывает диалоговое окно, в котором можно обозначить новую **концепцию** и добавить соответствующие ей **термины**. Количество используемых языков и **терминов** ничем не ограничивается.
 
 ![termlode_add1](termlode_add_7.png)
 
-Selecting any number of **Terms** with the checkboxes on the left side of the **List of Terms** and pressing the **Delete Selected** button will delete them from the **Termbase**.
+Можно удалить из базы несколько **терминов** одновременно, расставив галочки с левой стороны **списка терминов** и нажав кнопку **Удалить выделенные**.
 
-The drop-down menu over the **Term Filter** is used to switch the top frame between the **Term Filter** and other vital functions:
+Выпадающее меню над **фильтром терминов** служит для переключения верхней области между **фильтром терминов** и другими важными функциями:
 
-- The Settings menu, where you can set the name of the **Termbase**, as well as its default source and target languages and its business domain:
+- Меню настроек, в котором можно задать название **термбазы** и её настройки по умолчанию: исходный язык, язык перевода, бизнес-домен:
 
 ![termlode_add1](termlode_add_4.png)
 
-- The Import menu, where you can import **Terms** via XLSX files (example file is provided via download link):
+- Меню импорта, в котором можно импортировать **термины** из файлов XLSX (файл-пример предоставляется по ссылке):
 
 ![termlode_add1](termlode_add_5.png)
 
-- The Users menu, where you can see the list of uses that have been invited to this **Termbase** in various roles, as well as invite new users by sending invitation links to their email addresses:
+- Меню пользователей, в котором находится список пользователей, приглашенных в данную **термбазу** на различные роли. Здесь же можно приглашать новых пользователей, отправля им ссылки на электронную почту:
 
 ![termlode_add1](termlode_add_6.png)
 
