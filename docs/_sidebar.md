@@ -2,7 +2,7 @@
 * [Голдпан](goldpan.md)
 * [Интерпретисто](interpretisto.md)
 * [Мемоза](memose.md)
-* [Перфекционист] (perfectionist.md)
+* [Перфекционист](perfectionist.md)
 * [Ригора](rigora.md)
 * [Термлод](termlode.md)
 * [Хакутаку](hakutaku.md)
