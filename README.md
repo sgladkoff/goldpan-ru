@@ -1,1 +1,1 @@
-# Русская версия справки по облаку Logrus Global Localization Cloud
+# Русская справка по облаку Amberite Localization Cloud
