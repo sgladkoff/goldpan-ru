@@ -1,6 +1,8 @@
 * [Обзор платформы Amberite Localization Cloud](README.md)
-<!--- * [Голдпан](goldpan.md) -->
+<!--
+* [Голдпан](goldpan.md)
 * [Интерпретисто](interpretisto.md)
+-->
 * [Мемоза](memose.md)
 * [Перфекционист](perfectionist.md)
 * [Ригора](rigora.md)
