@@ -1,4 +1,4 @@
-* [Обзор платформы Amberite Localization Cloud](README.md)
+* [Обзор облачной платформы локализации Амберит](README.md)
 <!--* [Голдпан](goldpan.md)-->
 <!--* [Мемоза](memose.md)-->
 * [Перфекционист](perfectionist.md)
